@@ -307,11 +307,13 @@ Silence fell over the room.
 
 You go into the basement and grab a few dumb terminals to cobble together a workstation. You find a dataset of every major hospital in North America and you put on some gospel music through your headphones to enter the whiteboard of data. 
 
-*I will stand for you, will you stand for me, everybody deserves to be free.*
+    I will stand for you, 
+    will you stand for me, 
+    everybody deserves to be free.
 
 You open a terminal:
 
-    sudo apt-get update; sudo apt-get install qgis
+    sudo apt-get update; sudo apt-get install qgis;
 
 You open another terminal:
 
@@ -325,3 +327,5 @@ You open another terminal:
 You enter a column of zeros for green immunization status, fixing Fort Derick and Walter Reed to 100%. 
 
 You then begin entering the red percentages off the board into a column dated August 3rd, one hospital at a time.
+
+ea25b2ba915605f675967fe48d5cceb614b50cfdfaa83fa24e2531eac1699789

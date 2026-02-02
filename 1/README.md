@@ -129,6 +129,10 @@ You were looking at Kosmos 2553 as it passed over a park next to Lake Michigan w
 
 You check your internet connection:
 
+    ssh kristof@empart-blue.us-chi-hiput-1.clouds
+    ...
+    ssh: connect to host empart-blue.us-chi-hiput-1.clouds timeout
+
     kristof@lab5.monterey#> ping 8.8.8.8
     64 bytes from 8.8.8.8: icmp_seq=1 ttl=114 time=12ms
     64 bytes from 8.8.8.8: icmp_seq=2 ttl=114 time=13ms
@@ -178,8 +182,12 @@ No more of that BS.
 
 You stare into the ocean with your song on repeat. 
 
-    when it crumbles we will stand tall ... 
+    When it crumbles 
+    We will stand tall 
+    Face it all together ...
 
 EMPART is done. 
 
 Now what?
+
+6a999427bda65bc71ab5582cfd27071aff53d599b444e7efe7e4ce02e6d94b74
