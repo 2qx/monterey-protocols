@@ -1,6 +1,5 @@
 ---
-title: The Monterey Protocols
-description: Sunday - EMPART
+title: 1 Sunday - EMPART
 date: 2026-02-01
 permalink: /1/
 ---

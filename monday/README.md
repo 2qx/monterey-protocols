@@ -1,6 +1,5 @@
 ---
-title: The Monterey Protocols
-description: Monday - Red & Green
+title: 2 Monday - Red & Green
 date: 2026-02-01
 permalink: /2/
 ---

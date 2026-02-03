@@ -4,7 +4,6 @@ image:
   path: /0/snowglobe.png
 ---
 
-# The Monterey Protocols
 
 A novella for the nonproliferation of a weapon against humanity. 
 
