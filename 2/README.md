@@ -305,9 +305,12 @@ Silence fell over the room.
 
 You go into the basement and grab a few dumb terminals to cobble together a workstation. You find a dataset of every major hospital in North America and you put on some gospel music through your headphones to enter the whiteboard of data. 
 
-    I will stand for you, 
-    will you stand for me, 
-    everybody deserves to be free.
+
+*I will stand for you,*
+
+*will you stand for me,*
+
+*everybody deserves to be free.*
 
 You open a terminal:
 
