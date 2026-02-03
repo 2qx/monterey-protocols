@@ -1,4 +1,5 @@
 ---
+title: The Monterey Protocols
 permalink: /
 image:
   path: /0/snowglobe.png

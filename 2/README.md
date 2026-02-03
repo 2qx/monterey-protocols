@@ -1,6 +1,6 @@
 ---
-title: 2 Monday - Red & Green
-date: 2026-02-01
+title: Monday - Red & Green
+date: 2026-02-02
 permalink: /2/
 ---
 
