@@ -1,8 +1,9 @@
-remote_theme: "jekyll/minima@bf9ef98"
+remote_theme: "jekyll/minima@43b5774"
+#remote_theme: "jekyll/minima@bf9ef98"
 theme: minima
 minima:
   skin: auto
-  nav_pages:
+  header_pages:
     - about.md
     - /0/README.md
     - /1/README.md
