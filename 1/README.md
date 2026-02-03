@@ -181,7 +181,9 @@ No more of that BS.
 You stare into the ocean with your song on repeat. 
 
 > When it crumbles 
+> 
 > We will stand tall 
+> 
 > Face it all together ...
 
 EMPART is done. 

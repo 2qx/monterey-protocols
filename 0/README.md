@@ -236,6 +236,7 @@ Et "vous écoutes [a bunch of static]" off a bit of a ionic reflection, but it's
 You hit #5 for "Dirt" radio, and catch a singer song writer on her bridge:
 
 > Hold your friends, forgive the night
+> 
 > Die to love and live your life ...
 
 'Dirt radio in a clutch', you think, as you sled your old Legacy closer toward a new resting place somewhere in the valley below. 
