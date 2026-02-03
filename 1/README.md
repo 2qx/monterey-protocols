@@ -1,5 +1,5 @@
 ---
-title: 1 Sunday - EMPART
+title: Sunday - EMPART
 date: 2026-02-01
 permalink: /1/
 ---
@@ -189,6 +189,6 @@ EMPART is done.
 
 Now what?
 
-[next >>](../monday/)
+[next >>](../2/)
 
 6a999427bda65bc71ab5582cfd27071aff53d599b444e7efe7e4ce02e6d94b74
