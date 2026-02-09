@@ -117,7 +117,7 @@ You suspected there could be a problem with the feed, but the total number of si
 
 Out of the corner of your left eye, you think you see a flicker. The other room five is now a room two. 
 
-Looking back to the simulator you realize, there's no air traffic on the radar. You look at both human and financial for air traffic and it's zero! Did all the planes land and get diverted, or did the feed just go down? 
+Looking back to the simulator you realize, there's no air traffic on the radar. You look at both human and financial for air traffic and it's zero! Did all the planes near Chicago land and get diverted, or did the feed just go down? 
 
 You were looking at pacemakers.
 

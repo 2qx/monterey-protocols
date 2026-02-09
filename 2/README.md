@@ -329,6 +329,6 @@ You enter a column of zeros for green immunization status, fixing Fort Derick an
 
 You then begin entering the red percentages off the board into a column dated August 3rd, one hospital at a time.
 
-
+[next >>](../3/)
 
 ea25b2ba915605f675967fe48d5cceb614b50cfdfaa83fa24e2531eac1699789
