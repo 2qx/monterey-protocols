@@ -1,5 +1,5 @@
 ---
-title: Sunday - EMPART
+title: Sunday
 date: 2026-02-01
 permalink: /1/
 previous: /0/

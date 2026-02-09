@@ -1,5 +1,5 @@
 ---
-title: Wednesday - Flowers
+title: Wednesday
 date: 2026-02-08 16:30:00
 permalink: /4/
 layout: page

@@ -1,5 +1,5 @@
 ---
-title: Thursday - Terminus
+title: Thursday
 date: 2026-02-08 17:00:00
 permalink: /5/
 layout: page

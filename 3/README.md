@@ -1,5 +1,5 @@
 ---
-title: Tuesday - TV off
+title: Tuesday
 date: 2026-02-08 16:00:00
 permalink: /3/
 layout: page

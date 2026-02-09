@@ -1,5 +1,5 @@
 ---
-title: Monday - Red & Green
+title: Monday
 date: 2026-02-02
 permalink: /2/
 layout: page
