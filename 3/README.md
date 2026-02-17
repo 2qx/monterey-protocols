@@ -53,7 +53,7 @@ You hit the pinwheel on the key fob and saw the four ways on a large white sedan
 
 You arranged the soup and sandwiches on the console under the television.
 
-You picked up a paper entitled *Smallpox as a Biologic Weapon* by D.A. Henderson and read the second paragraph of the introduction, 
+You picked up a paper entitled *Smallpox as a Biological Weapon* by D.A. Henderson and read the second paragraph of the introduction, 
 
 > If used as a biological weapon, smallpox represents a serious threat to civilian populations because of its case-fatality rate of 30% or more among unvaccinated persons and the absence of specific therapy. Although smallpox has long been feared as the most devastating of all infectious diseases, its potential for devastation today is far greater than at any previous time. Routine vaccination throughout the United States ceased more than 25 years go. In a now highly susceptible, mobile population, smallpox would be able to spread widely and rapidly throughout this country and the world. 
 

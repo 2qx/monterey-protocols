@@ -247,7 +247,7 @@ There was a conventionally produced professional graphic overlaid with the names
 
 There were Dr. Khan, Mac, and Sara listed alongside a doctor from the CDC and another from USAMRIID. 
 
-The feed cut to a brightly lit outdoor stage. It was surrounded with screens saying "PROVEN GULTY" and "TRAITORS". There's a sweeping pan of live closeups. 
+The feed cut to a brightly lit outdoor stage. It was surrounded with screens saying "PROVEN GUILTY" and "TRAITORS". There's a sweeping pan of live closeups. 
 
 You hear an announcer say: 
 

@@ -216,7 +216,7 @@ You're so funny Jody.
 
 A narrow sliver of a waxing crescent moon illuminates the alien landscape beyond. There's probably thirty acres, all now protected by ice. The den exterior is rock hard too by now. Along the edges, a ring of century old hemlocks blacken the perimeter providing aerial cover (and habitat). It looks like the stands of deciduous trees are harvested in phases. 
 
-You step one foot out onto the ice. Not a peep pop or tong. It's seems thick. There's a whole world down there, with food in storage for a growing family. It's a home for a host of other creatures in suspended animation. 
+You step one foot out onto the ice. Not a peep pop or tong. It seems thick. There's a whole world down there, with food in storage for a growing family. It's a home for a host of other creatures in suspended animation. 
 
 That's the way to be Jody. Certainly beats an old mound of crap. 
 

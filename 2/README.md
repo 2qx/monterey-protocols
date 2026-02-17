@@ -155,7 +155,7 @@ With the three of you in the room, she gives her reports:
 
 They both turn to look at you. 
 
-Khan says, "What the hell are we going to do with this albatross now. Faque!"
+Khan says, "What the hell are we going to do with this albatross now? Faque!"
 
 "There is an old sailor's trick, but the lore says it's very bad luck." Katia grins. 
 
@@ -295,7 +295,7 @@ Katia interjected, "Because the United States stopped vaccinating for smallpox i
 
 "Where are the vaccines?" you ask. 
 
-"The vaccines are being held in the Strategic National Stockpile pending a confirmed positive test at from the CDC." Dr. Khan said. 
+"The vaccines are being held in the Strategic National Stockpile pending a confirmed positive test from the CDC." Dr. Khan said. 
 
 Silence fell over the room. 
 
