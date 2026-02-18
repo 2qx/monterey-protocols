@@ -5,9 +5,7 @@ permalink: /about
 layout: page
 ---
 
-## About
-
-The Monterey Protocols is a short work of fiction to encourage strategic thought about civil defense at the local and individual level.
+*The Monterey Protocols* is a short work of fiction to encourage strategic thought about civil defense at the local and individual level.
 
 ## Disclaimer 
 
