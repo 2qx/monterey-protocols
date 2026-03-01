@@ -61,7 +61,7 @@ This second *Carl* is setting off your warning bells.
 
 "So you bought the courier business from Carl?", you ask. 
 
-"Nah, I bought it from a guy named Jose, He bought it from a gut name Scott. There may have been a Carl in the 50's, but we just liked the name." Francis explained.
+"Nah, I bought it from a guy named Jose, He bought it from a guy named Scott. There may have been a Carl in the 50's, but we just liked the name." Francis explained.
 
 "Anyway, I've got two envelopes here." he says as he hands you a large white envelope addressed to the center. The return address in the upper left hand corner simply reads:
 
@@ -219,7 +219,7 @@ Katia tries again: "Repeat after me,  Specification, infection, selection."
 
 "There is a field of white flowers, but one of every fifty flowers is red.", she repeats.
 
-"You take the red flower. You say this is the one, but more. That is your specification."
+"You take the red flower. You say: 'this is the one, but more'; that is your specification."
 
 "You pick all the red flowers, and you burn the field. Then you sow only red flowers. When your flowers grow, you harvest the seeds of the red ones and burn the rest again. You repeat this process until only red flowers grow."
 

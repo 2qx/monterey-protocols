@@ -7,7 +7,7 @@ layout: page
 
 You woke up on Monday to a warm breeze sweeping up the coast through your open balcony door. 
 
-You head over to the Institute to disassemble the jumbo-iron, to take the eight terminals you had assembled into one make-shift display back into a whole computer lab. 
+You head over to the Institute to disassemble the jumbo-tron, to take the eight terminals you had assembled into one make-shift display back into a whole computer lab. 
 
 You notice a double line of cars waiting for gas stretching along Del Monte Ave. What is going on in this country, now we have a fuel shortage? Great. 
 

@@ -179,7 +179,7 @@ She dropped the black card envelope from the Alliance on the conference table an
 
 Flo chuckled, "Yeah, in a way, Alice is the boss of all the crypto nerds."
 
-"Alice is an idea." 
+"Alice is an idea.", Flo said. 
 
 "Alice is the idea of a user that cryptographers, developers and gamers have been writing software for for fifty years. Alice represents a person that wants to do hard things. Alice is up against bad people that don't want her to get what she wants. Alice needs software and cryptography to accomplish her goals safely. People who understand what Alice wants work for her; they try to build what she will need." 
 

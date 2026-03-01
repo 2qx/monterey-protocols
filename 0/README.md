@@ -72,7 +72,7 @@ You both tip your skis up as the ramp rises to meet you. As you both slide off t
 
 You consciously pull the end of the caustic sentence so the hundred thousand needles might go deeper if Professor Carl finishes the sentence in his own voice. 
 
-***
+...
 
 You had spent the winter of your freshman year memorizing precision topography of the entire mountain using data downloaded from the Vermont's public geographic information database. You misused some computer lab resources and the expensive plotter at school to print a massive custom shaded topographic map with more detail of the mountain than any available map. It was the exact width of your dorm wall. You even sold a couple digital copies of the pdf to friends. 
 
@@ -108,7 +108,7 @@ You spot him shuffling his antique skis toward the back lift. You go in at full 
 
 "HA! No. Yes... free speech is a tricky thing." he says,
 
-The clutch of rowdy snowboarders set up camp on the nape of a ridgeline on the Long Trail and were trying to scream across Lake Champlain to someone in New York through the inversion layer of ultra-cold compressed air, but the direction of wind wasn't in their favor.
+The clutch of rowdy snowboarders set up camp on the nape of a ridge line on the Long Trail and were trying to scream across Lake Champlain to someone in New York through the inversion layer of ultra-cold compressed air, but the direction of wind wasn't in their favor.
 
 "The cold doesn't bother them?", Sable asks. 
 
@@ -216,7 +216,7 @@ You're so funny Jody.
 
 A narrow sliver of a waxing crescent moon illuminates the alien landscape beyond. There's probably thirty acres, all now protected by ice. The den exterior is rock hard too by now. Along the edges, a ring of century old hemlocks blacken the perimeter providing aerial cover (and habitat). It looks like the stands of deciduous trees are harvested in phases. 
 
-You step one foot out onto the ice. Not a peep pop or tong. It seems thick. There's a whole world down there, with food in storage for a growing family. It's a home for a host of other creatures in suspended animation. 
+You step one foot out onto the ice. Not a peep pop or tong. It seems thick. There's a whole world down there, with food in storage for a growing family. It's a home for a host of other creatures in suspended animation. It was a secure place built and protected by one simple rule: listen for water flowing down hill and stop it―with a set of protocols and procedures all derived from that one simple rule. 
 
 That's the way to be Jody. Certainly beats an old mound of crap. 
 
