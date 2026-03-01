@@ -275,7 +275,7 @@ Katia, Sara and Mac all look to Dr. Khan.
 
 "We are not speculating on a specific pathogen." Dr. Khan said firmly. "We are waiting for confirmed tests from the CDC, they will make a positive identification." 
 
-You look down at the conference table to see it littered with copies of a papers *The 1971 Smallpox Epidemic in Aralsk, Kazakhstan, and the Soviet Biological Warfare Program* and a paper titled *Smallpox as a Biological Weapon*. There's a book titled *Smallpox - The Death of a Disease* with a bunch of flags sticking out of the end chapters. There's a couple papers on anthrax, but it's still in the center of the table untouched.
+You look down at the conference table to see it littered with copies of a paper titled: *The 1971 Smallpox Epidemic in Aralsk, Kazakhstan, and the Soviet Biological Warfare Program* and a paper titled *Smallpox as a Biological Weapon*. There's a book titled *Smallpox - The Death of a Disease* with a bunch of flags sticking out of the end chapters. There's a couple papers on anthrax, but that stack is still in the center of the table untouched.
 
 "What do the red and green numbers mean?", you ask Dr. Khan. 
 
