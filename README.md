@@ -16,5 +16,4 @@ A novella for nonproliferation.
 5. [Wednesday - Flowers](./4/)
 6. [Thursday - Terminus](./5/)
 
-[about this novella](./about)
-
+[about this novella](./about) [PDF](/assets/monterey-protocols-A5.pdf)
