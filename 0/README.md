@@ -16,7 +16,9 @@ You could have gone to UVM on a Green and Gold scholarship, but you asked your m
 
 Tonight, there was only a small gang of snowboarders at the shelter and a few rogue skiers whipping about. With the harder snow from last week's melt, you opted for skis. You grabbed your poles from the trunk. A face-warmer and goggles were absolutely necessary, leaving nothing exposed to the cold.
 
-It was a string of empty chairs all the way up the mountain. As you scooted forward for your first ride up, a skier turned at speed and stopped directly on the line next to you, right as you bent your knees for the chair to pick you up. You glanced at the lift operator, as if to say "did you see that", but Brett was looking at his phone again. 
+It was a string of empty chairs all the way up the mountain. 
+
+As you scooted forward for your first ride up, a skier turned at speed and stopped directly on the line next to you, right as you bent your knees for the chair to pick you up. You glanced at the lift operator, as if to say "did you see that", but Brett was looking at his phone again. 
 
 Looking down as the ground dropped away, the fantastic fashion spectacle of your fellow traveler hit you. 
 
@@ -82,7 +84,7 @@ You stop on the edge to look at a giant hollowed out Eastern Hemlock with an eno
 
 *That's a way to be Jody; what a piece of work.*
 
-Someone tries to have a simple conversation and you turn your back to offer them a hundred thousand barbed jabs in return. What a nasty asymmetric defense. What a lonely creature, in a lonely place. Jody the panoptic porcupine, barbs out, alone with a pile of excrement as a warning to all who would come near.
+*Someone tries to have a simple conversation and you turn your back to offer them a hundred thousand barbed jabs in return. What a nasty asymmetric defense. What a lonely creature, in a lonely place. Jody the panoptic porcupine, barbs out, alone with a pile of excrement as a warning to all who would come near.*
 
 A haunting chill sinks over you. You feel deep regret at your turn of phrase and swift departure. Your flash of rage toward the world turns to guilt. You head down the backside looking for the electric neon Sable.
 
@@ -104,7 +106,7 @@ You spot him shuffling his antique skis toward the back lift. You go in at full 
 
 "No, not just nukes. It's more complex; their work is much broader, focused on preventing the use of weapons of mass destruction more generally. If you want to apply your worldview and talents defensively against war, and against a whole array of weapons, they are the experts." He pauses. 
 
-"Do they have a social media expert?" you ask. 
+"Do they have a social media expert?" you asked. 
 
 "HA! No. Yes... free speech is a tricky thing" he said.
 
@@ -166,11 +168,11 @@ You stop the car.
 
 It turns to cross the road, dragging the end of thirty foot sapling above it's head, like a giant rodent flag bearer without a petard. 
  
-*Jeez-um CROW, its got to be the most massive beaver in Vermont.* A fifty pound tank. *HOLLLY CRAP.* 
+*Jeez-um CROW, its got to be the biggest beaver in Vermont.* A fifty pound tank. *HOLLLY CRAP.* 
 
 You look downhill and notice the massive area has been inundated under a sheet of snow covered ice. You'd never noticed that in four years. 
 
-*Seems like beavers are normally in for the season when you're driving by. Perhaps the record drought put this guy behind on food for the winter.*
+*So beavers are normally in for the season when you're driving by. Perhaps the record drought put this guy behind on food for the winter.*
 
 The enormous magnificent beast stops on the centerline. It stares directly at you. It lifts its body to preen some gravel from its chest and belly with its forearms, slowly, almost as if to say, "Yeah, you like that?"
 
@@ -196,13 +198,13 @@ You stare at the yellow "05 26" sticker in the windshield. Last May was the only
 
 You don't really need a car; you can take the bus or train to visit home, which you've been doing anyhow. 
 
-Given the Legacy's mass and current stored gravitational potential energy at an elevation of approximately three hundred meters above sea level, if it didn't start again, does a pathway exist to pilot it into one of Vermont's many privately held steel reserve stockpiles without calling a tow truck? 
+*Given this Legacy's mass and current stored gravitational potential energy at an elevation of approximately three hundred meters above sea level, if it didn't start again, does a pathway exist to pilot it into one of Vermont's many privately held steel reserve stockpiles without calling a tow truck?*
 
-... wait wait wait, go back ... this bear beaver story still doesn't make sense.
+*... wait wait wait, go back ... this bear beaver story still doesn't make sense.*
 
-How in the wintry hell does the beaver get back under the ice? It's negative ten degrees. The ice must be six inches thick now. Its den is clearly visible fifty yards out, with an entire underworld food storage system protected by a dome of ice armor. 
+*How in the wintry hell does the beaver get back under the ice? It's negative ten degrees. The ice must be six inches thick now. Its den is clearly visible fifty yards out, with an entire underworld food storage system protected by a dome of ice armor.*
 
-How is the beaver going to get under the ice dome to get home to the den? That's an interesting puzzle.
+*How is the beaver going to get under the ice dome to get home to the den? That's an interesting puzzle.*
 
 You close the hood of the Subaru, and you hear faint muffled craunching. You walk forward ten yards and peer over the edge of the road. You see the beaver has pulled its tree into a large (five foot diameter) corrugated pipe culvert.
 
@@ -232,7 +234,7 @@ You turn the radio on to hear "threatened trade sanctions in retaliation over Gr
 
 You hit #4 to see if you can pick up Montreal off the ionosphere. 
 
-Et "vous écoutes [a bunch of static]" off a bit of a ionic reflection, but it's not enough.
+Et "*vous écoutes* [a bunch of static]" off a bit of a ionic reflection, but it's not enough.
 
 You hit #5 for "Dirt" radio, and catch a singer-songwriter on her bridge:
 
@@ -240,7 +242,7 @@ You hit #5 for "Dirt" radio, and catch a singer-songwriter on her bridge:
 
 *Die to love and live your life ...*
 
-Ah *dirt radio in a clutch*, you think, as you sled your old Legacy closer toward a new resting place somewhere in the valley below. 
+Ah *dirt radio in a clutch*, you think, as you sled that old Legacy closer toward a new resting place somewhere in the valley below. 
 
 [next >>](../1/) 
 

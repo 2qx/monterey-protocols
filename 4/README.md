@@ -17,11 +17,11 @@ It was just Jody alone in the conference room.
 
 You begin to make the acquaintance of your various new colleagues by their chat handles and avatars. 
 
-You looked at the little tripod conference phone while waiting for data to come in. The conference phone had an 802 number. That's funny.
+You looked at the little tripod conference phone while waiting for data to come in. The conference phone had an 802 number. *That's funny.*
 
 You had brought a three bean salad from your refrigerator at home. No need to do food runs if it's just you today.
 
-You took a break around four o'clock to feed Thor and Lightning.
+You took a break around four o'clock PM to feed Thor and Flash.
 
 By five o'clock, you were merging your second complete day of individual count data on a national level, which gave you one step in a differential rate of change. 
 
@@ -61,7 +61,7 @@ This second *Carl* is setting off your warning bells.
 
 "So you bought the courier business from Carl?", you ask. 
 
-"Nah, I bought it from a guy named Jose, He bought it from a guy named Scott. There may have been a Carl in the 50's, but we just liked the name." Francis explained.
+"Nah, I bought it from a guy named Jose, He bought it from a guy named Scott. There may have been a Carl in the 90's, but we just liked the name." Francis explained.
 
 "Anyway, I've got two envelopes here." he says as he hands you a large white envelope addressed to the center. The return address in the upper left hand corner simply reads:
 
@@ -149,7 +149,7 @@ You see the boots of someone clearing the conference table. All the papers, the 
 
 You look around to notice that underneath the conference table is like a little safe room. The table is made of two solid vertical supports running most of the length. The table is like a giant double T-beam. 
 
-'Avoid capture at all costs.' you hear Sara say.
+*Avoid capture at all costs.* you hear Sara say.
 
 You crawl underneath the conference table toward the middle, but just before you reach the halfway point, the floor gives out and you tumble forward off a trap-door head first. 
 

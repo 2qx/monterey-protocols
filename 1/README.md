@@ -33,9 +33,13 @@ America was huge.
 
 Sacramento to San Jose, then a bus from the airport to Monterey. 
 
-Professor Carl had put you in touch with the lead researcher Kristof, over Telegram. You were given the address of a luxury building that was, indeed, directly on the beach. You picked up a key from the doorman and found an ancient looking long board waiting for you on the coffee table with a hand written note:
+Professor Carl had put you in touch with the lead researcher Kristof, over Telegram. You were given the address of a luxury building that was, indeed, directly on the beach. You picked up a key from the doorman and found an ancient looking long board waiting for you on the coffee table with a typed note:
 
-  Hello Jody, Had this lying around. ' thought you might use it. Wear sunglasses to protect those special "pan"oculars. - Carl ;)
+    Hello Jody, 
+    
+    Had this lying around. I thought you might use it. Wear sunglasses to protect those special "pan"oculars. 
+    
+                  - Carl ;)
 
 On the counter were a box of manuals, a usb stick, a fingerprint key fob, and a sophisticated looking mechanical key on a lanyard. 
 
@@ -73,7 +77,7 @@ The non-human financial cost was much less interesting to look at. That part onl
 
 The simulation ran around the clock. It wasn't one of those boring jobs where you had to hit run and wait for the results. 
 
-So, if it all ran by itself, what did they need you for?
+*So, if it all ran by itself, what did they need you for?*
 
 You spent the first few days learning the system and how to modify the code behind it in a sandbox. Then Kristof would give new simulated data feeds to integrate. You'd have to add the data source, then spot check the financial calculations were being done correctly. And then program the visuals to display the new data. It was all fairly easy once you did one because most of the feeds were similar. 
 
@@ -105,7 +109,7 @@ The apartment was provided through August. The apartment building was always des
 
 You had stopped getting new feed integration assignments to add in the middle of July. You spent the closing weeks double checking your own work and documenting your code. 
 
-You went in for your last day with a pizza and some kombucha to watch the simulation you helped augment one last time. You had some housekeeping to put all the terminals in your jumbo-tron back to individual terminals.
+You went in for your last day with a pizza and some kombucha to watch the simulation you helped augment one last time. You had some housekeeping to put all the terminals in your jumbo-tron back to individual workstations.
 
 You had also started to notice an interesting anomaly on the year over year human cost around Chicago with your "lemming" sims beginning around July 30th. 
 
@@ -142,7 +146,7 @@ Your connection to the internet is fine.
 
 You ping other places but only your cluster seems down. 
 
-' guess they were serious about ending on time. 
+*' guess they were serious about ending on time.*
 
 It's still light out. You see some evening weather coming in. You see the tops of palm trees swaying about through the basement window. 
 
@@ -158,7 +162,7 @@ The door was on some kind of a timer.
 
 You look in and see dim florescent lighting, but would have to push the door to see more. 
 
-"Stay within the lines Jody. Don't do it." 
+*Stay within the lines Jody. Don't do it.*
 
 You take your empty pizza box and head for the beach blasting Adele through your conductive headphones. 
 
@@ -170,9 +174,9 @@ There's a flurry of notifications on your phone. It's all crypto apps. It looks 
 
 They're all different erratic price above and below notifications (you never signed up to get) for the core currencies: BTC, ETH, SOL, & XRP.
 
-These effing idiot crypto scammers are using the same price feed across four exchanges. What a joke. 
+*These effing idiot crypto scammers are using the same price feed across four exchanges. What a joke.*
 
-It would be cool if one day decentralized finance were like, you know, more decentralized, as promised. It all just seems so rigged.
+*It would be cool if one day decentralized finance were like, you know, more decentralized, as promised. It all just seems so rigged.*
 
 You don't even want to bother any more. 
 

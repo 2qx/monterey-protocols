@@ -21,11 +21,11 @@ Next to the laptop was a plastic bag with various items you were well acquainted
 
 There were copies of the papers that had been on the conference table too. You recognized the key fob to Katia's car on top. 
 
-You wanted to stay in the vault all day, but you knew Thor and Lightning would be waiting for breakfast. So you made your way out of the basement and headed over to Dr. Khan's house. 
+You wanted to stay in the vault all day, but you knew Thor and Flash would be waiting for breakfast. So you made your way out of the basement and headed over to Dr. Khan's house. 
 
 You saw a van for Monterey County Animal Control pulling away as you approached Dr. Khan's home. 
 
-The front gate was open, the front door was open too. You could see where Thor and Lightning had met the storm troopers. There was black plastic and some biohazard tape haphazardly littered about. 
+The front gate was open, the front door was open too. You could see where Thor and Flash had met the storm troopers. There was black plastic and some biohazard tape haphazardly littered about. 
 
 The clean out crew had been here too. You could see the markings of the casters for their bins had scored patterns in blood into the house and out to the curb as they cleared the contents of Dr. Khan's home. They had taken papers, electronics and personal effects. Shelves were bare and his home office was now empty.
 
@@ -257,7 +257,7 @@ They couldn't seem to find a professional singer for their last minute event. Yo
 
 Instead, the nation heard the confused ramblings on the hot mic. The open and stark juxtaposition between the cognitive function depicted in the state produced narrative and reality was now one of the most terrifying features of the propaganda. 
 
-"Yo say does that star spanger banner yet whale.  'n it all belongs to me, pa pa ping, ba de da, pa paaaa POP!"
+"Yo say does that star spanger banner yet whale.  'n it all belongs to me, ba de ping, pa paaaa POP!"
  
 The End.
 

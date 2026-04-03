@@ -57,7 +57,7 @@ You picked up a paper entitled *Smallpox as a Biological Weapon* by D.A. Henders
 
 > If used as a biological weapon, smallpox represents a serious threat to civilian populations because of its case-fatality rate of 30% or more among unvaccinated persons and the absence of specific therapy. Although smallpox has long been feared as the most devastating of all infectious diseases, its potential for devastation today is far greater than at any previous time. Routine vaccination throughout the United States ceased more than 25 years go. In a now highly susceptible, mobile population, smallpox would be able to spread widely and rapidly throughout this country and the world. 
 
-Geeze, that sounds pretty bad. 
+*Geeze, that sounds pretty bad.*
 
 You flipped to the next page, to see the guidelines were first drafted in 1998. Since a lot more time has passed, our remaining immunity must be even lower now.
 
@@ -151,9 +151,9 @@ There was a copy of a microbiology journal from 2003. You saw a bound booklet ab
 
 There was a map.
 
-You saw a dotted line on the map tracing the voyage of the Lev Burg, July-August, 1971. Twenty stops in the Aral sea around "rebirth island" to collect fish and seaweed samples, to survey the ecological impact of a major river diversion for irrigation.
+You saw a dotted line on the map tracing the voyage of the Lev Burg, July-August, 1971. Twenty stops in the Aral Sea around "rebirth island" to collect fish and seaweed samples, to survey the ecological impact of a major river diversion for irrigation.
 
-'All epidemics should only take place on boats', you think to yourself. They'd be so much easier to analyze that way. 
+'All epidemics should only take place on boats', you think to yourself. *They'd be so much easier to analyze that way.*
 
 But the official reports from the time were full of many scenarios where Patient 1 in the outbreak contracted the disease off the boat or from someone who had gone ashore.
 
@@ -167,7 +167,9 @@ Why would official contemporaneous reports try to muddle or confuse something so
 
 Your stomach growled.
 
-'The monsters must be hungry by now' you thought to yourself. You put the paper back on the conference table and headed over to feed Dr. Khan's dogs. They seemed to be warming slightly to you each time you fed them. Thor's act was still fairly scary each time, but you were getting less afraid of his show. 
+'The monsters must be hungry by now' you thought to yourself. 
+
+You put the paper back on the conference table and headed over to feed Dr. Khan's dogs. They seemed to be warming slightly to you each time you fed them. Thor's act was still fairly scary each time, but you were getting less afraid of his show. 
 
 [next >>](../4/)
 
