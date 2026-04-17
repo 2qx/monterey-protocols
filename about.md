@@ -20,7 +20,7 @@ This work is placed in the public domain under a [Creative Commons Non-commercia
 
 ## Print Version
 
-This novella is also available typeset in [Portable Document Format (PDF)](/assets/monterey-protocols-A5.pdf){:target="_blank"}
+This novella is also available typeset in [Portable Document Format (PDF)](/assets/monterey-protocols_A5.pdf){:target="_blank"}
 
 The PDF is also available formatted as [20-sheet stapled bound "zine"](/assets/monterey-protocols-zine.pdf){:target="_blank"}, with an optional [cover](/assets/monterey-protocols-cover.pdf){:target="_blank"}. [When printing, select two-sided duplex flipped on the "long edge"]
 
