@@ -147,6 +147,8 @@ Papers, books, journals, electronics, personal effects, you can hear as every de
 
 You see the boots of someone clearing the conference table. All the papers, the phone, your workstation. The white envelope Francis just delivered gets knocked on the floor, but is quickly slam dunked into the bin. Everything goes in a demolition bin, everything but the dumb smart TV mounted to the wall.  
 
+"Maybe we rescan that freak now", you hear a storm-trooper joke.
+
 You look around to notice that underneath the conference table is like a little safe room. The table is made of two solid vertical supports running most of the length. The table is like a giant double T-beam. 
 
 *Avoid capture at all costs.* you hear Sara say.
@@ -312,6 +314,14 @@ You and Katia look at the security feed on the old cathode ray tube monitors as 
 "We failed to have empathy with our enemies." Katia bullets the point.
 
 There was no more action on the feeds. Just empty rooms and offices. A few scattered papers. There was no sound except the hum of the cathode ray tubes and the ballast of the overhead florescent lights.
+
+"How bad will it be if Dr. Khan's plan fails?" you ask.
+
+"Without vaccines, assuming the virus becomes more contagious but the fatality rate drops back toward a common strain, that would be a twenty to thirty percent fatality event." Katia says. 
+
+"For the whole country?" you ask. 
+
+Katia sighs. "For the world, several billion people. But that's not going to be the end." 
 
 "Someday soon (or perhaps it has already happened) near the frontlines of the war in my home countries, there will be a young soldier tasked to paint the silhouette of a group of running school children on a tank to see if it will stop an AI-enabled drone targeting system. And on the other side of the frontline, a technician will get a tap on the shoulder to rerun an AI training model without an exclusion set and redeploy an over-the-air update to all active drones." Katia said.
 

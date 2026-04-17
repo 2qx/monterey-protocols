@@ -41,6 +41,8 @@ Maybe they know something about the grant.
 
 There is a whiteboard on the far end of the conference room. They appear to be in some kind of exercise. There's some major university initials up on the board: UCLA, NYU, MG, UoI, JH, WR, FD. Some schools you know, some of them you don't. They each have a red number and a green number next to them. All the greens appear to be zero except for WR and FD, which are at a hundred. 
 
+"Well when was the last time we *were* able to inspect VECTOR?", you overhear a slender black man at the end of the conference room ask into a phone. 
+
 A woman on the near end of the conference table writes down a number on a clipboard and finishes her call, turning her attention toward you.
 
 "Hello, I'm Jody. I'm an incoming graduate student," you say.
@@ -49,7 +51,7 @@ A woman on the near end of the conference table writes down a number on a clipbo
 
 "Oh I'm the one that was running EMPART all summer. I always come in through the basement.", you say. 
 
-"Dr. Khan?", she raises her voice toward a slender black man at the end of the conference room who raises his hand, but then glances your way and stops. 
+"Dr. Khan?", she raises her voice toward the gentleman on the phone who raises his hand, but then glances your way and stops. 
 
 "I'm sorry, one moment.", he puts his hand over the phone receiver to address you. 
 
@@ -57,7 +59,7 @@ A woman on the near end of the conference table writes down a number on a clipbo
 
 "I'm Jody, I was the one running EMPART this summer, since June. I used the basement door." you say. 
 
-"Katia!", he says, raising his voice.
+"Ahh that damn door. Katia!", he says, raising his voice.
 
 "Mac, Sara, forget what you just heard.", Dr. Khan says, "I'm sorry Sir, I'm gonna have to call you back I have a security situation here." as he hung up the phone.
 
@@ -271,9 +273,15 @@ Katia, Sara and Mac all look to Dr. Khan.
 
 "The cases we're seeing today would have been exposed about two weeks ago; undetected the attacks could have continued up until yesterday. They may still be ongoing." Mac said.
 
+Shouldn't we have known about it two weeks ago?", you ask.
+
+"There had been a program called *BioWatch* which had continuously monitored for airborne pathogens in thirty jurisdictions around the US since 2003, but it was quietly shutdown in October of 2025. The entire office to counter weapons of mass destruction was shuttered. Active monitoring for airborne pathogens was placed under the Cybersecurity and Infrastructure Security Agency, but CISA had most of their staff furloughed and never got a confirmed Director." Katia said.
+
 "What is the pathogen?", you ask.
 
 "We are not speculating on a specific pathogen." Dr. Khan said firmly. "We are waiting for confirmed tests from the CDC, they will make a positive identification." 
+
+"The CDC shutdown their consultation and testing facilities for pox viruses in late March of this year." Katia added.
 
 You look down at the conference table to see it littered with copies of a paper titled: *The 1971 Smallpox Epidemic in Aralsk, Kazakhstan, and the Soviet Biological Warfare Program* and a paper titled *Smallpox as a Biological Weapon*. There's a book titled *Smallpox - The Death of a Disease* with a bunch of flags sticking out of the end chapters. There's a couple papers on anthrax, but that stack is still in the center of the table untouched.
 
