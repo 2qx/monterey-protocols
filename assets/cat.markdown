@@ -1,270 +1,40 @@
-\documentclass[a5paper, symmetric]{tufte-book}
+---
+title: The Monterey Protocols
+subtitle: a novella for non-proliferation
+author: 2qx
+---
 
-\usepackage{pdfpages}
+# Dedication
 
-\hypersetup{colorlinks}% uncomment this line if you prefer colored hyperlinks (e.g., for onscreen viewing)
-
-%%
-% Book metadata
-\title{The Monterey Protocols}
-\author[2qx]{2qx}
-\publisher{a novella for non-proliferation}
-
-%%
-% If they're installed, use Bergamo and Chantilly from www.fontsite.com.
-% They're clones of Bembo and Gill Sans, respectively.
-%\IfFileExists{bergamo.sty}{\usepackage[osf]{bergamo}}{}% Bembo
-%\IfFileExists{chantill.sty}{\usepackage{chantill}}{}% Gill Sans
-
-%\usepackage{microtype}
-
-%%
-% Just some sample text
-\usepackage{lipsum}
-
-%%
-% For nicely typeset tabular material
-\usepackage{booktabs}
-
-%%
-% For graphics / images
-\usepackage{graphicx}
-\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
-\graphicspath{{graphics/}}
-
-% The fancyvrb package lets us customize the formatting of verbatim
-% environments.  We use a slightly smaller font.
-\usepackage{fancyvrb}
-\fvset{fontsize=\normalsize}
-
-
-
-%%
-% Prints argument within hanging parentheses (i.e., parentheses that take
-% up no horizontal space).  Useful in tabular environments.
-\newcommand{\hangp}[1]{\makebox[0pt][r]{(}#1\makebox[0pt][l]{)}}
-
-%%
-% Prints an asterisk that takes up no horizontal space.
-% Useful in tabular environments.
-\newcommand{\hangstar}{\makebox[0pt][l]{*}}
-
-%%
-% Prints a trailing space in a smart way.
-\usepackage{xspace}
-
-%%
-% Some shortcuts for Tufte's book titles.  The lowercase commands will
-% produce the initials of the book title in italics.  The all-caps commands
-% will print out the full title of the book in italics.
-\newcommand{\vdqi}{\textit{VDQI}\xspace}
-\newcommand{\ei}{\textit{EI}\xspace}
-\newcommand{\ve}{\textit{VE}\xspace}
-\newcommand{\be}{\textit{BE}\xspace}
-\newcommand{\VDQI}{\textit{The Visual Display of Quantitative Information}\xspace}
-\newcommand{\EI}{\textit{Envisioning Information}\xspace}
-\newcommand{\VE}{\textit{Visual Explanations}\xspace}
-\newcommand{\BE}{\textit{Beautiful Evidence}\xspace}
-
-\newcommand{\TL}{Tufte-\LaTeX\xspace}
-
-% Prints the month name (e.g., January) and the year (e.g., 2008)
-\newcommand{\monthyear}{%
-  \ifcase\month\or January\or February\or March\or April\or May\or June\or
-  July\or August\or September\or October\or November\or
-  December\fi\space\number\year
-}
-
-
-% Prints an epigraph and speaker in sans serif, all-caps type.
-\newcommand{\openepigraph}[2]{%
-  %\sffamily\fontsize{14}{16}\selectfont
-  \begin{fullwidth}
-  \sffamily\large
-  \begin{doublespace}
-  \noindent\allcaps{#1}\\% epigraph
-  \noindent\allcaps{#2}% author
-  \end{doublespace}
-  \end{fullwidth}
-}
-
-% Inserts a blank page
-\newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage}
-
-\usepackage{units}
-\usepackage{relsize}
-\usepackage[smallcaps]{glossaries}
-
-% Typesets the font size, leading, and measure in the form of 10/12x26 pc.
-\newcommand{\measure}[3]{#1/#2$\times$\unit[#3]{pc}}
-
-% Macros for typesetting the documentation
-\newcommand{\hlred}[1]{\textcolor{Maroon}{#1}}% prints in red
-\newcommand{\hangleft}[1]{\makebox[0pt][r]{#1}}
-\newcommand{\hairsp}{\hspace{1pt}}% hair space
-\newcommand{\hquad}{\hskip0.5em\relax}% half quad space
-\newcommand{\TODO}{\textcolor{red}{\bf TODO!}\xspace}
-\newcommand{\na}{\quad--}% used in tables for N/A cells
-\providecommand{\XeLaTeX}{X\lower.5ex\hbox{\kern-0.15em\reflectbox{E}}\kern-0.1em\LaTeX}
-\newcommand{\tXeLaTeX}{\XeLaTeX\index{XeLaTeX@\protect\XeLaTeX}}
-% \index{\texttt{\textbackslash xyz}@\hangleft{\texttt{\textbackslash}}\texttt{xyz}}
-\newcommand{\tuftebs}{\symbol{'134}}% a backslash in tt type in OT1/T1
-\newcommand{\doccmdnoindex}[2][]{\texttt{\tuftebs#2}}% command name -- adds backslash automatically (and doesn't add cmd to the index)
-\newcommand{\doccmddef}[2][]{%
-  \hlred{\texttt{\tuftebs#2}}\label{cmd:#2}%
-  \ifthenelse{\isempty{#1}}%
-    {% add the command to the index
-      \index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2}}% command name
-    }%
-    {% add the command and package to the index
-      \index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2} (\texttt{#1} package)}% command name
-      \index{#1 package@\texttt{#1} package}\index{packages!#1@\texttt{#1}}% package name
-    }%
-}% command name -- adds backslash automatically
-\newcommand{\doccmd}[2][]{%
-  \texttt{\tuftebs#2}%
-  \ifthenelse{\isempty{#1}}%
-    {% add the command to the index
-      \index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2}}% command name
-    }%
-    {% add the command and package to the index
-      \index{#2 command@\protect\hangleft{\texttt{\tuftebs}}\texttt{#2} (\texttt{#1} package)}% command name
-      \index{#1 package@\texttt{#1} package}\index{packages!#1@\texttt{#1}}% package name
-    }%
-}% command name -- adds backslash automatically
-\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
-\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
-\newenvironment{docspec}{\begin{quotation}\ttfamily\parskip0pt\parindent0pt\ignorespaces}{\end{quotation}}% command specification environment
-\newcommand{\docenv}[1]{\texttt{#1}\index{#1 environment@\texttt{#1} environment}\index{environments!#1@\texttt{#1}}}% environment name
-\newcommand{\docenvdef}[1]{\hlred{\texttt{#1}}\label{env:#1}\index{#1 environment@\texttt{#1} environment}\index{environments!#1@\texttt{#1}}}% environment name
-\newcommand{\docpkg}[1]{\texttt{#1}\index{#1 package@\texttt{#1} package}\index{packages!#1@\texttt{#1}}}% package name
-\newcommand{\doccls}[1]{\texttt{#1}}% document class name
-\newcommand{\docclsopt}[1]{\texttt{#1}\index{#1 class option@\texttt{#1} class option}\index{class options!#1@\texttt{#1}}}% document class option name
-\newcommand{\docclsoptdef}[1]{\hlred{\texttt{#1}}\label{clsopt:#1}\index{#1 class option@\texttt{#1} class option}\index{class options!#1@\texttt{#1}}}% document class option name defined
-\newcommand{\docmsg}[2]{\bigskip\begin{fullwidth}\noindent\ttfamily#1\end{fullwidth}\medskip\par\noindent#2}
-\newcommand{\docfilehook}[2]{\texttt{#1}\index{file hooks!#2}\index{#1@\texttt{#1}}}
-\newcommand{\doccounter}[1]{\texttt{#1}\index{#1 counter@\texttt{#1} counter}}
-\newcommand*{\smallpercent}{\textsmaller[2]{\char"25} }
-\newcommand*{\smallamp}{\textsmaller[2]{\char"26} }
-
-% Generates the index
-\usepackage{makeidx}
-\makeindex
-
-\begin{document}
-
-%\includepdf[pages=-,booklet, nup=2x1,flip-other-edge]{sample-book-spread.pdf}
-
-% Front matter
-\frontmatter
-
-% r.1 blank page
-\blankpage
-
-% v.2 epigraphs
-\newpage\thispagestyle{empty}
-% \openepigraph{%
-% The public is more familiar with bad design than good design.
-% It is, in effect, conditioned to prefer bad design, 
-% because that is what it lives with. 
-% The new becomes threatening, the old reassuring.
-% }{Paul Rand%, {\itshape Design, Form, and Chaos}
-% }
-% \vfill
-% \openepigraph{%
-% A designer knows that he has achieved perfection 
-% not when there is nothing left to add, 
-% but when there is nothing left to take away.
-% }{Antoine de Saint-Exup\'{e}ry}
-% \vfill
-% \openepigraph{%
-% \ldots the designer of a new system must not only be the implementor and the first 
-% large-scale user; the designer should also write the first user manual\ldots 
-% If I had not participated fully in all these activities, 
-% literally hundreds of improvements would never have been made, 
-% because I would never have thought of them or perceived 
-% why they were important.
-% }{Donald E. Knuth}
-
-
-% r.3 full title page
-\maketitle
-
-
-% v.4 copyright page
-\newpage
-\begin{fullwidth}
-~\vfill
-\thispagestyle{empty}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{\baselineskip}
-
-This work was placed in the public domain in Feb. 2026 by \thanklessauthor.
-
-\par\smallcaps{2qx.github.io/monterey-protocols}
-
-\par Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
-International Public License 
-\par \smallcaps{https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en}
-
-\par On demand paperback \textsc{isbn}: 979-8-234-06509-4\\
- On demand hard cover \textsc{isbn}: 978-1-105-39482-9
-
-This work is free to all who wish to read it; donations accepted:
-\small\textsc{bitcoincash:qznqvØh95re2qktlacjnss7n59smpgqtcv33784v8r}\\
-\includegraphics[width=0.75in]{qr.png} 
-
-\tiny\begin{Verbatim}
-first draft:
-4c4fc3cc76d6427de59188c37e55c200bfc3d393a094bf23c0f874a4ff14fa6b
-6a999427bda65bc71ab5582cfd27071aff53d599b444e7efe7e4ce02e6d94b74
-ea25b2ba915605f675967fe48d5cceb614b50cfdfaa83fa24e2531eac1699789
-cea477f7e4807abf8e800eedb0fd7b7eae53751518e18beb65753d82c8492911
-0dc8587ad2b023d39fd02210cd0909d6196a572e58fe709a6594fab3555bc36e
-2e18c701e724f16cfc5147c774f73a3f7b325e894c4c5cad323bca6d35067f2d
-\end{Verbatim}
-
-\end{fullwidth}
-
-% r.5 contents
-\tableofcontents
-
-% r.7 dedication
-\cleardoublepage
-~\vfill
-\thispagestyle{empty}
-\begin{doublespace}
-\noindent\fontsize{18}{22}\selectfont\itshape
-\nohyphenation
 To Ms. Coker and others.
-\end{doublespace}
-\vfill
-\vfill
 
+# Copyright
 
-% % r.9 introduction
-% \cleardoublepage
-% \chapter*{}
+This work was placed in the public domain in Feb. 2026 by 2qx.
 
-% This sample book discusses the design of Edward Tufte's
-% books\cite{Tufte2001,Tufte1990,Tufte1997,Tufte2006}
-% and the use of the \doccls{tufte-book} and \doccls{tufte-handout} document classes.
+It was made freely available at https://2qx.github.io/monterey-protocols
 
+Creative Commons Attribution-NonCommercial-NoDerivatives
+4.0 International Public License
 
-%%
-% Start the main matter (normal chapters)
-\mainmatter
+https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
 
+first draft backup: 
 
-\chapter{Snow Globe}
-\label{ch:snow-globe}
+    4c4fc3cc76d6427de59188c37e55c200bfc3d393a094bf23c0f874a4ff14fa6b
+    6a999427bda65bc71ab5582cfd27071aff53d599b444e7efe7e4ce02e6d94b74
+    ea25b2ba915605f675967fe48d5cceb614b50cfdfaa83fa24e2531eac1699789
+    cea477f7e4807abf8e800eedb0fd7b7eae53751518e18beb65753d82c8492911
+    0dc8587ad2b023d39fd02210cd0909d6196a572e58fe709a6594fab3555bc36e
+    2e18c701e724f16cfc5147c774f73a3f7b325e894c4c5cad323bca6d35067f2d
 
+# Prologue: Snow globe
 
-\newthought{ADDISON COUNTY, VERMONT}―\textsc{Noaa} had issued extreme cold weather advisories across New England for Friday evening through to Saturday; the perfect weather to keep all the flatlanders away from your snow globe sanctuary.
+ADDISON COUNTY VERMONT&mdash;NOAA had issued Extreme Cold Weather advisories across New England for Friday evening through to Saturday; the perfect weather to keep all the flatlanders away from your snow globe sanctuary.
 
-Every Friday in winter, for the last four years, you've thrown your split-board in your rusty 2002 Subaru Legacy your mother bought "Certified Used" when you were three years old. You headed out for the snow bowl, where you usually stayed 'til the last run at 9\textsc{pm}. 
+Every Friday in winter, for the last four years, you've thrown your split-board in your rusty 2002 Subaru Legacy your mother bought certified used when you were three years old. You headed out for the snow bowl, where you usually stayed 'til the last run at 9PM. 
 
-You could have gone to \textsc{uvm} on a Green and Gold scholarship, but you asked your mom to stop at a ski mountain on the way home from the visit to the big city. Between your grades and a single parent income, you got offered a second full ride scholarship in exchange for being a dash of local flavor at the rich kid school. The modest slopes and three chair lifts were the key value proposition of the private college.
+You could have gone to UVM on a Green and Gold scholarship, but you asked your mom to stop at a ski mountain on the way home from the visit to the big city. Between your grades and a single parent income, you got offered a second full ride scholarship in exchange for being a dash of local flavor at the rich kid school. The modest slopes and three chair lifts were the key value proposition of the private college.
 
 Tonight, there was only a small gang of snowboarders at the shelter and a few rogue skiers whipping about. With the harder snow from last week's melt, you opted for skis. You grabbed your poles from the trunk. A face-warmer and goggles were absolutely necessary, leaving nothing exposed to the cold.
 
@@ -274,7 +44,7 @@ As you scooted forward for your first ride up, a skier turned at speed and stopp
 
 Looking down as the ground dropped away, the fantastic fashion spectacle of your fellow traveler hit you. 
 
-It was as if someone had been transported from Mont Blanc forty years ago into present day Vermont. Long, narrow, heavy, laminated, fiberglass skis. Massive chunky boots. A mostly neon one piece jumpsuit with bright colorful patchwork. It was so very mid-80s, but also new old stock. The attire was mint, unfaded, unsoiled equipment without a scratch. It looked like someone spent several thousand dollars on ski gear in the poshest towns of Switzerland, money laundering in the go-go eighties, then put the entire getup in a closet for forty years.
+It was as if someone had been transported from Mont Blanc forty years ago into present-day Vermont. Long, narrow, heavy, laminated, fiberglass skis. Massive chunky boots. A mostly neon one piece jumpsuit with bright colorful patchwork. It was so very mid-80s, but also new old stock. The attire was mint, unfaded, unsoiled equipment without a scratch. It looked like someone spent several thousand dollars on ski gear in the poshest towns of Switzerland, money laundering in the go-go eighties, then put the entire getup in a closet for forty years.
 
 "Jody? Is that Jody?"
 
@@ -286,7 +56,7 @@ Oh gosh, this loon knows you, there goes your sanctuary time.
 
 "Hah! That's some retro outfit you got there." you say, as you pull down your face warmer, "I was just thinking about you on the drive here. Public Radio is telling the whole country that all your crazy predictions are coming true. The United States is planning to invade Greenland, then perhaps Canada and Russia ..." 
 
-"―all because of The Mercator Projection!" you both shout in unison with a belly laugh.
+"&mdash;all because of The Mercator Projection!" you both shout in unison with a belly laugh.
 
 "Yes, it's difficult to convince someone of the true magnitude of things when they are perpetually shown a world view that systematically distorts reality.", the professor said. "Hopefully he doesn't invade Russia though." 
 
@@ -298,7 +68,7 @@ Oh gosh, this loon knows you, there goes your sanctuary time.
 
 The banter paused as a stiff wind made it difficult to hear.
 
-"You are graduating this year, RIGHT? ANY PLANS LINED UP?" Professor Sable yelled.   
+"You are graduating this year, RIGHT? ANY PLANS LINED UP?" Professor Sable yelled.
 
 You shout: "WELP, I had HOPED to get a job in WASHINGTON, but with the way things are turning out, THAT'S LOOKING LIKE A BUST! There's a GLUT of HIGHLY-QUALIFIED people and NO JOBS! I've applied to the graduate program HERE. So I'll probably STICK AROUND for another two years."
 
@@ -312,9 +82,9 @@ You shout: "WELP, I had HOPED to get a job in WASHINGTON, but with the way thing
 
 "Then why not make video games with your brother?" Carl asked.
 
-You pause, take a deep breath and in a rapid monotonous tone say, "My brother broke his leg skiing at Killington, while visiting for Christmas in 2019. He went through multiple surgeries and a lot of pain killers. Our mom tried to warn him. He had been working for a big game studio in Portland, but they shutdown in-person for covid. Then he got laid off the next January. He \textsc{od}ed right before Christmas in 2022―fentanyl."
+You pause, take a deep breath and in a rapid monotonous tone say, "My brother broke his leg skiing at Killington, visiting for Christmas in 2019. He went through multiple surgeries and a lot of pain killers. Our mom tried to warn him. He had been working for a big game studio in Portland, but they shutdown in-person for covid. Then he got laid off the next January. He O.D.ed right before Christmas in 2022&mdash;fentanyl."
 
-Professor Sable raised his matching mittens abruptly, forgetting there were poles attached to his wrist as he said, "I'm so sorry. I remember now. You wrote that paper on the legal changes to requirements for criminal prosecution at the \textsc{dea}."
+Professor Sable raised his matching mittens abruptly, forgetting there were poles attached to his wrist as he said, "I'm so sorry. I remember now. You wrote that paper on the legal changes to requirements for criminal prosecution at the DEA."
 
 "I'm so very sorry for your loss. It's such a terrible epidemic", he added. 
 
@@ -322,11 +92,11 @@ You both tip your skis up as the ramp rises to meet you. As you both slide off t
 
 "Every year, one hundred thousand more ... ",
 
-\textit{... dead Americans.} you say in your head, as you speed away, over The Long Trail and down the back slope riding the edge of darkness.
+*... dead Americans.* you say in your head, as you speed away, over The Long Trail and down the back slope riding the edge of darkness.
 
-You consciously pull the end of the caustic sentence so the hundred thousand needles might go deeper if Professor Carl finishes the sentence in his own voice. 
+You consciously pull the end of the caustic sentence so the hundred thousand needles might go deeper if Professor Carl finishes the thought in his own voice. 
 
-\ldots
+...
 
 You had spent the winter of your freshman year memorizing precision topography of the entire mountain using data downloaded from Vermont's public geographic information database. You misused some computer lab resources and the expensive plotter at school to print a massive custom shaded topographic map with more detail of the mountain than any available map. It was the exact width of your dorm wall. You even sold a couple digital copies of the pdf to friends. 
 
@@ -334,23 +104,23 @@ By your sophomore year, you had built virtual computer models to plan fringe out
 
 You stop on the edge to look at a giant hollowed out Eastern Hemlock with an enormous pile of telltale porcupine droppings frozen in a perfect meter high cone at the bottom of a solitary dying tree. 
 
-\textit{That's a way to be Jody; what a piece of work.}
+*That's a way to be Jody; what a piece of work.*
 
-\textit{Someone tries to have a simple conversation and you turn your back to offer them a hundred thousand barbed jabs in return. What a nasty asymmetric defense. What a lonely creature, in a lonely place. Jody the panoptic porcupine, barbs out, alone with a pile of excrement as a warning to all who would come near.}
+*Someone tries to have a simple conversation and you turn your back to offer them a hundred thousand barbed jabs in return. What a nasty asymmetric defense. What a lonely creature, in a lonely place. Jody the panoptic porcupine, barbs out, alone with a pile of excrement as a warning to all who would come near.*
 
-A haunting chill sinks over you. You feel deep regret at your turn of phrase and swift departure. Your flash of rage toward the world turns to guilt. So you head down the backside looking for the electric neon Sable.
+A haunting chill sinks over you. You feel deep regret at your turn of phrase and swift departure. Your flash of rage toward the world turns to guilt. You head down the backside looking for the electric neon Sable.
 
 You spot him shuffling his antique skis toward the back lift. You go in at full speed, stopping on the line as the chair picks you both up. You smile and wave with all your charm as a lady operator shoots you a stern look.
 
-"Have you ever been to Monterey, Jody?", Carl picks up. 
+"Have you ever been to Monterey, Jody?" Carl picks up. 
 
 "California? I've never been on a plane professor." you say. 
 
-"Well, as you are probably aware, the college maintains a satellite campus there..."  
+"Well, as you are probably aware, the college maintains a satellite campus there..."
 
 "Maintained, past-tense. They're shutting it down." you interrupt. 
 
-"―right, but it's not shut down yet." he continues, "and they've had a number of students drop out because their visas were canceled, or for sundry other reasons with grants and whatnot."
+"&mdash;right, but it's not shut down yet." he continues, "and they've had a number of students drop out because their visas were canceled, or for sundry other reasons with grants and whatnot."
 
 "They need to maintain a minimum number of butts in seats for the next two years for accreditation. Since you say you don't like bombs, I was thinking ... well they have collected the leading researchers and thinkers in the field of nonproliferation ...",
 
@@ -360,7 +130,7 @@ You spot him shuffling his antique skis toward the back lift. You go in at full 
 
 "Do they have a social media expert?" you asked. 
 
-"HA! No. Yes... free speech is a tricky thing." he said,
+"HA! No. Yes... free speech is a tricky thing" he said.
 
 The clutch of rowdy snowboarders set up camp on the nape of a ridge line on the Long Trail. They were trying to scream across Lake Champlain to someone in New York through the inversion layer of ultra-cold compressed air. The direction of wind wasn't in their favor.
 
@@ -386,7 +156,7 @@ The clutch of rowdy snowboarders set up camp on the nape of a ridge line on the 
 
 "I've never seen the puzzle in a first person shooter", you add.
 
-"Ahhh―well listen" he stammered as the top of the lift approached. "Shoot me an email when you get accepted and I can send you the contact info for the apartment and the research project." 
+"Ahhh&mdash;well listen" he stammered as the top of the lift approached. "Shoot me an email when you get accepted and I can send you the contact info for the apartment and the research project." 
 
 As you disembarked from the lift, you nearly fell backward as all control on one ski was lost. You look down to see your right ski has structurally failed; it delaminated right at the heel of the binding. The holes for the bindings pulled out at the same time.
 
@@ -398,7 +168,7 @@ Not wanting to go down on one ski, you unclip the bindings and try to join the t
 
 "That's a neat trick." Professor Carl says,
 
-"Yeah, it was kind of expensive. It was a sixteenth birthday present. Cost more than my car at the time. I'm probably not going to get a new one this season." you explain.
+"Yeah, it was kind of expensive. It was a sixteenth birthday present. Cost more than my car at the time. I'm probably not going to get a new one this season," you explain.
 
 "Maybe a new board in Monterey then. It was good to see you, but it's cold out here. Shoot me an email". 
 
@@ -408,35 +178,35 @@ Gone was your evening, ski season and sanctuary time.
 
 You limp your board down the mountain on one and a half edges, snow packing between the layers, swelling as it goes. You knocked out what ice you could and threw it across the back seat of your old Subaru. 
 
-\ldots
+...
 
 As you wind down the mountain on the back road, you slow down for what looks like a black bear walking along the side of the road on a flat straight. 
 
 You stop the car. 
 
-\textit{Well, that is not right. It's the dead of January.}
+*Well, that is not right. It's the dead of January.*
 
-\textit{All the bears have to be denned up by now. What the hell is this creature?}
+*All the bears have to be denned up by now. What the hell is this creature?*
 
-It turns to cross the road, dragging the end of a thirty foot sapling above it's head, like a giant rodent flag bearer without a petard. 
+It turns to cross the road, dragging the end of thirty foot sapling above it's head, like a giant rodent flag bearer without a petard. 
  
-\textit{Jeez-um CROW, its got to be the biggest beaver in Vermont. A fifty pound tank. HOLLLY CRAP.}
+*Jeez-um CROW, its got to be the biggest beaver in Vermont.* A fifty pound tank. *HOLLLY CRAP.* 
 
 You look downhill and notice the massive area has been inundated under a sheet of snow covered ice. You'd never noticed that in four years. 
 
-\textit{So beavers are normally in for the season when you're driving by. Perhaps the record drought put this guy behind on food for the winter.}
+*So beavers are normally in for the season when you're driving by. Perhaps the record drought put this guy behind on food for the winter.*
 
 The enormous magnificent beast stops on the centerline. It stares directly at you. It lifts its body to preen some gravel from its chest and belly with its forearms, slowly, almost as if to say, "Yeah, you like that?"
 
-In its glistening pelt, you catch a shimmer of the super-insulating orbicular bullion that made John Jacob Astor break so bad―a store of wealth and power for survival that could be extremely tempting to commodify, at the most terrible irreparable cost to America. 
+In its glistening pelt, you catch a shimmer of the super-insulating orbicular bullion that made John Jacob Astor break so bad&mdash;a store of wealth and power for survival that could be extremely tempting to commodify, at the most terrible irreparable cost to America. 
 
-\textit{What a beautiful creature. What a landscape.}
+*What a beautiful creature. What a landscape.*
 
 Back to your 2026 milieu, you look down to see the oil light has come on again. 
 
-You put your blinkers on, kill the ignition, pop the hood, then pull the break as you reach behind the passenger seat to grab a fresh quart of oil a funnel \& rag, all in one hand.  
+You put your blinkers on, kill the ignition, pop the hood, then pull the brake as you reach behind the passenger seat to grab a fresh quart of oil a funnel & rag in one hand.
 
-Normally, you don't need a funnel, but with the cold temperatures, this could turn into a fluid dynamics comedy. The oil starts to come out of the quart as one giant ball of molasses. You try to stop it immediately as it comes out, but now the ball of oil has formed a column of tacky coffee toffee sucking itself out of the bottle by its own viscosity. Oh lord, make it stop. 
+Normally, you don't need a funnel, but with the cold temperature this could turn into a fluid dynamics comedy. The oil starts to come out of the quart as one giant ball of molasses. You try to stop it immediately as it comes out, but now the ball of oil has formed a column of tacky coffee toffee sucking itself out of the bottle by its own viscosity. Oh lord, make it stop. 
 
 As you struggle to contain your imminent ecological crimes against the mountain beaver habitat, two cars speed down the road and swerve around you. A Benz and a Beamer, red and blue, New Jersey and Massachusets, both with campus parking stickers. Freshmen probably. They're done yelling and snowboarding too apparently.
 
@@ -444,35 +214,35 @@ They each clip the whimsy top of the beaver's tree as they swerve back into the 
 
 You look back down under the hood, you see the slow-motion oil confectionary disaster has mostly been averted by the funnel and your inattention. You put the quart bottle back in the car and throw the beaver his dinner as you wait for the rest of the molasses to get through the funnel. 
 
-\textit{That was a close one.}
+*That was a close one.*
 
 You stare at the yellow "05 26" sticker in the windshield. Last May was the only time Tyler's grandpa let it pass inspection without a hassle. Right before his garage closed in August, that was last time anyone would ever work on this car. 
 
 You don't really need a car; you can take the bus or train to visit home, which you've been doing anyhow. 
 
-\textit{Given the Legacy's mass and current stored gravitational potential energy at an elevation of approximately three hundred meters above sea level, if it didn't start again, does a pathway exist to pilot it into one of Vermont's many privately held steel reserve stockpiles without calling a tow truck?}
+*Given this Legacy's mass and current stored gravitational potential energy at an elevation of approximately three hundred meters above sea level, if it didn't start again, does a pathway exist to pilot it into one of Vermont's many privately held steel reserve stockpiles without calling a tow truck?*
 
-\textit{... wait wait wait, go back ... this bear beaver story still doesn't make sense.}
+*... wait wait wait, go back ... this bear beaver story still doesn't make sense.*
 
-\textit{How in the wintry hell does the beaver get back under the ice? It's negative ten degrees. The ice must be six inches thick now. It's den is clearly visible fifty yards out, with an entire underworld food storage system protected by a dome of ice armor. }
+*How in the wintry hell does the beaver get back under the ice? It's negative ten degrees. The ice must be six inches thick now. Its den is clearly visible fifty yards out, with an entire underworld food storage system protected by a dome of ice armor.*
 
-\textit{How is the beaver going to get under the ice dome to get home to the den? That's an interesting puzzle.}
+*How is the beaver going to get under the ice dome to get home to the den? That's an interesting puzzle.*
 
-You close the hood of the Subaru, and you hear faint muffled craunching. You walk forward ten yards and peer over the edge of the road, you see the beaver has pulled its tree into a large corrugated pipe culvert.
+You close the hood of the Subaru, and you hear faint muffled craunching. You walk forward ten yards and peer over the edge of the road. You see the beaver has pulled its tree into a large (five foot diameter) corrugated pipe culvert.
 
-The residual heat from the ground must be keeping the water in the buried pipe from freezing, at the moment. That's the entrance, and it swims to the den from there; a culvert to the underworld. It will probably still freeze hard tonight if it stays as cold as they're saying. That might be its last fresh meal of the winter.
+The residual heat from the ground must be keeping the water in the buried pipe from freezing, for the moment. That's the entrance, and it swims to the den from there; a culvert to the underworld. It will probably still freeze hard tonight if it stays as cold as they're saying. That might be its last fresh meal of the winter.
 
 But if the beaver's portal to The Upside Down is an under-the-road wildlife passage, accessible from both sides of the road, we're left with one last clichéd puzzle to solve. 
 
-You do an about-face and walk to the downstream side of the road to see the pipe outlet has been submerged by flooding. There's thick solid ice up to and covering the crown. The beaver couldn't enter the portal that way, and that is \textit{why} the beaver crossed the... you know. \textit{Ba dum 'tis.}
+You do an about-face and walk to the downstream side of the road to see the pipe outlet has been submerged by flooding. There's thick solid ice up to and covering the crown. The beaver couldn't enter the portal that way, and that is *why* the beaver crossed the... you know. *Ba dum 'tis.*
 
-\textit{You're so funny Jody.}
+*You're so funny Jody.*
 
-A narrow sliver of a waxing crescent moon illuminates the alien landscape beyond. There's probably thirty acres, all now protected by ice. The den exterior is rock hard too by now. Along the edges of the pond, a ring of century old hemlocks blacken the perimeter providing aerial cover and habitat. It looks like the stands of deciduous trees are harvested in phases. 
+A narrow sliver of a waxing crescent moon illuminates the alien landscape beyond. There's probably thirty acres, all now protected by ice. The den exterior is rock hard too. Along the edges, a ring of century old hemlocks blacken the perimeter providing aerial cover and habitat. It looks like the stands of deciduous trees are harvested in phases. 
 
-You step one foot out onto the ice. Not a peep pop or tong. It seems thick. There's a whole world down there, with food in storage for a growing family. It's a home for a host of other creatures in suspended animation. It was a secure place built and protected by one simple rule: listen for water flowing down hill and stop it―with a set of protocols and procedures all derived from that one simple rule. 
+You step one foot out onto the ice. Not a peep pop or tong. It seems thick. There's a whole world down there, with food in storage for a growing family. It's a home for a host of other creatures in suspended animation. It was a secure place built and protected by one simple rule: listen for water flowing down hill and stop it&mdash;with a set of protocols and procedures all derived from that one simple rule. 
 
-\textit{That's the way to be Jody. Certainly beats an old porc's mound of crap.}
+*That's the way to be Jody. Certainly beats an old porc's mound of crap.*
 
 Back in the car, you turn the key. The Legacy roars back with no oil light. 
 
@@ -482,24 +252,24 @@ You wonder if you can take a train all the way to Monterey.
 
 A computer simulation. More free school; free housing. Five grand ain't much, but what's the worst that could possibly happen?
 
-You turn the radio on to hear "threatened trade sanctions in retaliation over Greenland in Davos ... " \textit{and that's a NOPE.}
+You turn the radio on to hear "threatened trade sanctions in retaliation over Greenland in Davos ..." *and that's a NOPE.*
 
-You hit memory 4 to see if you can pick up Montreal off the ionosphere. 
+You hit #4 to see if you can pick up Montreal off the ionosphere. 
 
-Et "\textit{vous écoutes} \textit{[a bunch of static]}" off a bit of a ionic reflection, but it's not enough.
+Et "*vous écoutes* [a bunch of static]" off a bit of a ionic reflection, but it's not enough.
 
-You hit memory 5 for "Dirt" radio, and catch a singer-songwriter on her bridge:
+You hit #5 for "Dirt" radio, and catch a singer-songwriter on her bridge:
 
-\textit{Hold your friends, forgive the night}
+*Hold your friends, forgive the night*
 
-\textit{Die to love and live your life ...}
+*Die to love and live your life ...*
 
-'Dirt radio in a clutch', you think, as you sled the old Legacy closer toward a new resting place somewhere in the valley below. 
+Ah *dirt radio in a clutch*, you think, as you sled that old Legacy closer toward a new resting place somewhere in the valley below. 
 
-\chapter{EMPART}
-\label{ch:sunday}
+# Sunday: EMPART
 
-\newthought{There were indeed} trains that went most of the way to Monterey California. 
+
+There were indeed trains that went most of the way to Monterey California. 
 
 You took an Ethan Allen from Rutland toward Castleton. You traded that in for a Lake Shore Limited in Schenectady and you were off.
 
@@ -517,7 +287,7 @@ You had never been a sucker--you knew we had a lot, but you hadn't seen it yours
 
 For your Vermont provisions, you got to shop from your grandmother's store. You took with you one gallon maple syrup, six pints jam, four pints apple butter, two pints honey. For pickles, you took two dill, two bread and butter and one pint cowboy candy. You knew America didn't have what your grandma had.
 
-You grabbed your brother's Nintendo and his favorite \textsc{n}64 game. Your mom loaded you with bottles of sunscreen. Most of your attire wasn't going to fly in California anyway, so you planned to hit the second hand store with the money from scrapping your old Subaru Legacy.
+You grabbed your brother's Nintendo and his favorite N64 game. Your mom loaded you with bottles of sunscreen. Most of your attire wasn't going to fly in California anyway, so you planned to hit the second hand store with the money from scrapping your old Subaru Legacy.
 
 In Chicago, you caught a California Zephyr toward the incredible majesty of The Rockies that you had dreamed of descending with your split board. Deserts and grasslands; great forests and rivers. 
 
@@ -525,15 +295,13 @@ America was huge.
 
 Sacramento to San Jose, then a bus from the airport to Monterey. 
 
-Professor Carl had put you in touch with the lead researcher Kristof, over Telegram. You were given the address of a luxury building that was, indeed, directly on the beach. You picked up a key from the doorman and found an ancient looking long board waiting for you on the coffee table with a hand written note:
+Professor Carl had put you in touch with the lead researcher Kristof, over Telegram. You were given the address of a luxury building that was, indeed, directly on the beach. You picked up a key from the doorman and found an ancient looking long board waiting for you on the coffee table with a typed note:
 
-\begin{quote}
-  \small\textit{Hello Jody,}
-  
-  \textit{I had this lying around, thought you might use it. Don't forget sunglasses to protect those special "pan"oculars.}
-  
-  \hfill \textit{— Carl ;)}
-\end{quote}
+    Hello Jody, 
+    
+    Had this lying around. I thought you might use it. Wear sunglasses to protect those special "pan"oculars. 
+    
+                  - Carl ;)
 
 On the counter were a box of manuals, a usb stick, a fingerprint key fob, and a sophisticated looking mechanical key on a lanyard. 
 
@@ -545,17 +313,17 @@ The whole Institute was closed for the summer, but you accessed your lab from a 
 
 The computer setup was fairly simple. You had a dumb linux computer. You ran a script from the usb, together with the fob, to connect to your computing cluster at `empart-blue.us-chi-hiput-1.clouds`. 
 
-For two months, you ran a system called \textsc{empart}. It was fairly straightforward to explain it by walking through the letters.
+For two months, you ran a system called EMPART. It was fairly straightforward to explain it by walking through the letters.
 
-An Electro Magnetic Pulse (\textsc{emp}) is a wave of magnetism, like from a toy magnet or motor magnet, but much stronger. 
+An Electro Magnetic Pulse (EMP) is a wave of magnetism, like from a toy magnet or motor magnet, but much stronger. 
 
 Similar to water waves, there are different sizes. There are small ones that lap the edge of a lake, and waves that lap an ocean. There are tsunamis and walls of flash boiling water from meteorite impacts. But unlike water, strong magnet waves really only hurt electronics. (They pass through plants and animals without harm.) 
 
-In electronics, however, the waves induce current, which causes extreme voltages and catastrophic failure when the magnetic field hits. That's an \textsc{emp}. 
+In electronics, however, the waves induce current, which causes extreme voltages and catastrophic failure when the magnetic field hits. That's an EMP. 
 
-\textsc{Emp}s can be created in many ways. The system you were looking at was only concerned with major \textsc{emp}s caused by nuclear reactions in the upper atmosphere. A payload on a satellite that could strike with little or no warning.
+EMPs can be created in many ways. The system you were looking at was only concerned with major EMPs caused by nuclear reactions in the upper atmosphere. A payload on a satellite that could strike with little or no warning.
 
-Next, the Analysis (A), the \textsc{empart} system was designed to continuously evaluate both the human and financial cost of one of these \textsc{emp}s going off. The analysis calculated how many people would die from the event and how much money would be lost in things destroyed. Those cost numbers were updated every few seconds and shown live in a table. 
+Next, the Analysis (A), the EMPART system was designed to continuously evaluate both the human and financial cost of one of these EMPs going off. The analysis calculated how many people would die from the event and how much money would be lost in things destroyed. Those cost numbers were updated every few seconds and shown live in a table. 
 
 There were about a dozen of these satellites "of interest" that were mostly all Russian in origin, but China had a few suspects up there as well. 
 
@@ -563,15 +331,15 @@ Kosmos 2553 had been one of the key satellites of interest. It was launched righ
 
 The total human and financial analysis was done for each satellite, and you could see the cost breakdown per satellite and per line item of the cost components. 
 
-The system used little "sims" or simulated entities to represent humans in air traffic, cars, trains and for anyone on critical medical equipment. It would show little hearts for individual sims with pacemakers. It simulated ongoing surgeries, including by type. It estimated bed counts in intensive care units on life-support at every hospital in the \textsc{us}. Then anyone on oxygen or a respirator outside of a hospital too. 
+The system used little "sims" or simulated entities to represent humans in air traffic, cars, trains and for anyone on critical medical equipment. It would show little hearts for individual sims with pacemakers. It simulated ongoing surgeries, including by type. It estimated bed counts in intensive care units on life-support at every hospital in the US. Then anyone on oxygen or a respirator outside of a hospital too. 
 
 At any given time, the simulation would have roughly sixty thousand people up in-the-air, plus or minus twenty thousand. There were roughly eight million simulated individuals that used an electronic device to regulate their heart rate.
 
-The non-human financial cost was much less interesting to look at. That part only looked at major infrastructure. Electronic equipment didn't move nearly as much as the tiny sims. The financial analysis was just a picture map of how much the stuff on that square pixel would cost if they broke. Most of it, at this point were \textsc{ai} chips, which were likely inflated assets anyhow. The system just had to sum everything on the image based on where the \textsc{emp} would be at any moment to find the cost. 
+The non-human financial cost was much less interesting to look at. That part only looked at major infrastructure. Electronic equipment didn't move nearly as much as the tiny sims. The financial analysis was just a picture map of how much the stuff on that square pixel would cost if they broke. Most of it, at this point were AI chips, which were likely inflated assets anyhow. The system just had to sum everything on the image based on where the EMP would be at any moment to find the cost. 
 
 The simulation ran around the clock. It wasn't one of those boring jobs where you had to hit run and wait for the results. 
 
-\textit{So, if it all ran by itself, what did they need you for?}
+*So, if it all ran by itself, what did they need you for?*
 
 You spent the first few days learning the system and how to modify the code behind it in a sandbox. Then Kristof would give new simulated data feeds to integrate. You'd have to add the data source, then spot check the financial calculations were being done correctly. And then program the visuals to display the new data. It was all fairly easy once you did one because most of the feeds were similar. 
 
@@ -593,7 +361,7 @@ Your mom still sent you twenty dollars a week, but that didn't really buy gum in
 
 So you spent the summer reading, staring into the vastness of the Pacific Ocean, catching waves, working or just staring into the simulator.
 
-Now, you are not an unreliable narrator. You are still very much a pacifist, but the trip, the vastness of the data displayed, your new linux and coding chops, the video game, and the fact that you were essentially setting off all the \textsc{emp}s all the time, made you feel a bit drunk on power, like you were lording over the world as some kind of Bond villain in a private geostationary command center. 
+Now, you are not an unreliable narrator. You are still very much a pacifist, but the trip, the vastness of the data displayed, your new linux and coding chops, the video game, and the fact that you were essentially setting off all the EMPs all the time, made you feel a bit drunk on power, like you were lording over the world as some kind of Bond villain in a private geostationary command center. 
 
 But, but, but... you weren't bombing anything, you were just doing the math to find out what would happen if you did. And just doing the math didn't hurt anyone.
 
@@ -627,22 +395,20 @@ You were looking at Kosmos 2553 as it passed over a park next to Lake Michigan w
 
 You check your internet connection:
 
-\begin{Verbatim}
-ssh kristof@empart-blue.us-chi-hiput-1.clouds
-...
-ssh: connect to host empart-blue.us-chi-hiput-1.clouds timeout
+    ssh kristof@empart-blue.us-chi-hiput-1.clouds
+    ...
+    ssh: connect to host empart-blue.us-chi-hiput-1.clouds timeout
 
-kristof@lab5.monterey#> ping 8.8.8.8
-64 bytes from 8.8.8.8: icmp_seq=1 ttl=114 time=12ms
-64 bytes from 8.8.8.8: icmp_seq=2 ttl=114 time=13ms
-64 bytes from 8.8.8.8: icmp_seq=3 ttl=114 time=11ms
-\end{Verbatim}
+    kristof@lab5.monterey#> ping 8.8.8.8
+    64 bytes from 8.8.8.8: icmp_seq=1 ttl=114 time=12ms
+    64 bytes from 8.8.8.8: icmp_seq=2 ttl=114 time=13ms
+    64 bytes from 8.8.8.8: icmp_seq=3 ttl=114 time=11ms
 
 Your connection to the internet is fine. 
 
 You ping other places but only your cluster seems down. 
 
-\textit{I guess they were serious about ending on time.}
+*' guess they were serious about ending on time.*
 
 It's still light out. You see some evening weather coming in. You see the tops of palm trees swaying about through the basement window. 
 
@@ -658,7 +424,7 @@ The door was on some kind of a timer.
 
 You look in and see dim florescent lighting, but would have to push the door to see more. 
 
-\textit{Stay within the lines Jody. Don't do it.}
+*Stay within the lines Jody. Don't do it.*
 
 You take your empty pizza box and head for the beach blasting Adele through your conductive headphones. 
 
@@ -668,39 +434,33 @@ Your Sunday sanctuary is disturbed by a racket on the kitchen table.
 
 There's a flurry of notifications on your phone. It's all crypto apps. It looks like you still had four of them installed from before the collapse in 2022. 
 
-They're all different erratic price above and below notifications (you never signed up to get) for the core currencies: \textsc{btc}, \textsc{eth}, \textsc{sol}, \smallamp  \textsc{xrp}.
+They're all different erratic price above and below notifications (you never signed up to get) for the core currencies: BTC, ETH, SOL, & XRP.
 
-These effing idiot crypto scammers are using the same price feed across four exchanges. What a joke. 
+*These effing idiot crypto scammers are using the same price feed across four exchanges. What a joke.*
 
-It would be cool if one day decentralized finance were like, you know, more decentralized, as promised. It all just seems so rigged.
+*It would be cool if one day decentralized finance were like, you know, more decentralized, as promised. It all just seems so rigged.*
 
 You don't even want to bother any more. 
 
 After checking your balances are still zero, as they have been for years, you just delete, delete, delete. 
 
-No more of that \textsc{bs}.
+No more of that BS.
 
 You stare into the ocean with your song on repeat. 
-\linebreak
-\linebreak
-\textit{When it crumbles}
 
-\textit{We will stand tall}
+*When it crumbles*
+ 
+*We will stand tall*
+ 
+*Face it all together ...*
 
-\textit{Face it all together ...}
-\linebreak
-\linebreak
-\textsc{empart} is done. 
+EMPART is done. 
 
-Now what?
+# Monday: Red &amp; Green
 
+You woke up on Monday to a warm breeze sweeping up the coast through your open balcony door. 
 
-\chapter{Red and Green}
-\label{ch:monday}
-
-\newthought{You woke up} on Monday to a warm breeze sweeping up the coast through your open balcony door. 
-
-You head over to the Institute to disassemble the jumbo-iron, to take the eight terminals you had assembled into one make-shift display back into a whole computer lab. 
+You head over to the Institute to disassemble the jumbo-tron, to take the eight terminals you had assembled into one make-shift display back into a whole computer lab. 
 
 You notice a double line of cars waiting for gas stretching along Del Monte Ave. What is going on in this country, now we have a fuel shortage? Great. 
 
@@ -712,13 +472,13 @@ The number next to the giant door was a two today.
 
 You put the eight terminals back where they belong. 
 
-You try to log back into the \textsc{empart} cluster, but no luck. They must have shut it off to save cost. 
+You try to log back into the EMPART cluster, but no luck. They must have shut it off to save cost. 
 
 You ping Kristof. 
 
 Based in Ukraine, Kristof always seemed to be online, most certainly by this hour. 
 
-\textit{How were they going to pay?} you wonder.
+'How were they going to pay?' you wonder.
 
 Did they even have your address? or banking details? 
 
@@ -732,9 +492,9 @@ There's three people in the conference room. You recognize some of the folks fro
 
 Maybe they know something about the grant.
 
-There is a whiteboard on the far end of the conference room. They appear to be in some kind of exercise. There's some major university initials up on the board: \textsc{ucla}, \textsc{nyu}, \textsc{mg}, \textsc{ui}, \textsc{jh}, \textsc{wr}, \textsc{fd}. Some schools you know, some of them you don't. They each have a red number and a green number next to them. All the greens appear to be zero except for \textsc{wr} and \textsc{fd}, which are at a hundred. 
+There is a whiteboard on the far end of the conference room. They appear to be in some kind of exercise. There's some major university initials up on the board: UCLA, NYU, MG, UoI, JH, WR, FD. Some schools you know, some of them you don't. They each have a red number and a green number next to them. All the greens appear to be zero except for WR and FD, which are at a hundred. 
 
-"Well when was the last time we \textit{were} able to inspect \textsc{vector}?", you overhear a slender black man at the end of the conference room ask into a phone. 
+"Well when was the last time we *were* able to inspect VECTOR?", you overhear a slender black man at the end of the conference room ask into a phone. 
 
 A woman on the near end of the conference table writes down a number on a clipboard and finishes her call, turning her attention toward you.
 
@@ -742,7 +502,7 @@ A woman on the near end of the conference table writes down a number on a clipbo
 
 "Hi Jody, I'm Sara. How'd you get in here?" 
 
-"Oh I'm the one that was running \textsc{empart} all summer. I always come in through the basement.", you say. 
+"Oh I'm the one that was running EMPART all summer. I always come in through the basement.", you say. 
 
 "Dr. Khan?", she raises her voice toward the gentleman on the phone who raises his hand, but then glances your way and stops. 
 
@@ -750,7 +510,7 @@ A woman on the near end of the conference table writes down a number on a clipbo
 
 "Who are you and how did you get in here?", he asked.
 
-"I'm Jody, I was the one running \textsc{empart} this summer, since June. I used the basement door." you say. 
+"I'm Jody, I was the one running EMPART this summer, since June. I used the basement door." you say. 
 
 "Ahh that damn door. Katia!", he says, raising his voice.
 
@@ -764,13 +524,13 @@ The three of you walk across the hall to an executive office. Katia positions an
 
 Dr. Khan begins to pepper you with questions. 
 
-"You were running an \textsc{empa} simulation this summer?", he asked. 
+"You were running an EMPA simulation this summer?", he asked. 
 
-"Yes an \textsc{empart} simulation." you say.
+"Yes an EMPART simulation." you say.
 
-"What is \textsc{empart}?" he asked.
+"What is EMPART?" he asked.
 
-"It's a continuous simulation to evaluate the total human and financial cost of an \textsc{emp} using simulated data feeds.", you explain. 
+"It's a continuous simulation to evaluate the total human and financial cost of an EMP using simulated data feeds.", you explain. 
 
 "It runs continuously with simulated data?", he asks again. 
 
@@ -800,7 +560,7 @@ Again, Dr. Khan and Katia exchange looks.
 
 "Okay, here's what's going to happen. You're going to sit there. Katia is going to ask you some more questions. Katia is then going to check your answers. And then we'll figure out what to do with you.", he says. 
 
-Continuing, he says, "If you leave this office, I will call Monterey \textsc{pd} to find you and take you to the nearest \textsc{fbi} field office. You will likely be charged with high treason and face swift execution given what has happened and our current climate." 
+Continuing, he says, "If you leave this office, I will call Monterey PD to find you and take you to the nearest FBI field office. You will likely be charged with high treason and face swift execution given what has happened and our current climate." 
 
 "I don't understand." you say. 
 
@@ -830,7 +590,7 @@ With the three of you in the room, she gives her reports:
 
 "Welp. It's not like they got anything. It was their satellite."
 
-"That's what I can't figure out." Katia said. 
+"That's what can't I figure out." Katia said. 
 
 "Given what this little country mouse has told us. It seems there was a group that knew an attack was imminent, from hacking Russian intelligence. But then chose to mitigate for loss of life instead of stopping it.", Katia explained.
 
@@ -840,7 +600,7 @@ With the three of you in the room, she gives her reports:
 
 "Who else?"
 
-"Well, we could speculate all day. It could have been any of the four eyes, \textsc{nato}, Japan, China, Israel, even India is fairly good at hacking now. But given the way the United States has been conducting itself on the international stage, it might be easier to make a list of entities that didn't want to fry \textsc{us} financial markets into the stone age." Katia explained. 
+"Well, we could speculate all day. It could have been any of the four eyes, NATO, Japan, China, Israel, even India is fairly good at hacking now. But given the way the United States has been conducting itself on the international stage, it might be easier to make a list of entities that didn't want to fry US financial markets into the stone age." Katia explained. 
 
 "What about she who shall not be named?" Khan asked.
 
@@ -876,11 +636,11 @@ Khan says, "What the hell are we going to do with this albatross now? Faque!"
 
 "This is my address," he said handing you a note.
 
-"Do you know how to get there without \textsc{gps}?",
+"Do you know how to get there without GPS?",
 
 "It's a few blocks from here", you say.
 
-"Good. You're going to be navigating a lot without \textsc{gps}.", he muttered.
+"Good. You're going to be navigating a lot without GPS.", he muttered.
 
 "This is the protocol," he says, "You look in the mail slot. There will be another dog barking before you reach the door, that's Flash, he's harmless. But Thor will come to the mail slot to snarl, growl and snap at you.", he paused. 
 
@@ -906,7 +666,7 @@ He pauses to ensure you grasp the implication, then continues, "So you put your 
 
 "Then you bring us back food.", Dr. Khan said. 
 
-"Given what you told us about \textsc{empart}. It's probably best if your phone stays here off in a Faraday box, right?", Katia confirmed.
+"Given what you told us about EMPART. It's probably best if your phone stays here off in a Faraday box, right?", Katia confirmed.
 
 "That's probably good." you say.
 
@@ -924,23 +684,23 @@ When you arrive back at the Institute, you're greeted with cheers.
 
 "What happened?" you ask. 
 
-"Well Vermont, while you were gone, Danish intelligence services announced they had obtained advance knowledge of yesterday's \textsc{emp} attack over the midwest as part of their own intelligence gathering. They took credit for running a year long clandestine harm mitigation operation with the objective of minimizing loss of life.", Katia said. "Which is why air traffic was warned and so many people at high risk had decided to go out of town."
+"Well Vermont, while you were gone, Danish intelligence services announced they had obtained advance knowledge of yesterday's EMP attack over the midwest as part of their own intelligence gathering. They took credit for running a year long clandestine harm mitigation operation with the objective of minimizing loss of life.", Katia said. "Which is why air traffic was warned and so many people at high risk had decided to go out of town."
 
 "But how did they make all those people go on vacation?", you ask. 
 
 "Oh come on Jody." Sara says, "A special offer, targeted ad, flier in the mail. It's fairly easy to manipulate behavior on an individual level, especially when most people carry a computer with push notifications enabled in their pocket."
 
-You spread out the takeout on a table under a big screen \textsc{tv} near the entrance of the conference room opposite the white board. 
+You spread out the takeout on a table under a big screen TV near the entrance of the conference room opposite the white board. 
 
 "We got you an eggplant parm Jody", Sara said. "We didn't know if you were a vegetarian." 
 
 "Thank You!" you say as your turn to face the whiteboard. 
 
-The whiteboard is now full of short codes. You recognize the codes from \textsc{empart}. They are not colleges, they're hospitals. 
+The whiteboard is now full of short codes. You recognize the codes from EMPART. They are not colleges, they're hospitals. 
 
-There's a black hole in the middle of their map stretching from Des Moines to Cleveland. Quite an \textsc{emp}.
+There's a black hole in the middle of their map stretching from Des Moines to Cleveland. Quite an EMP.
 
-You look up to Vermont: \textsc{uvm}, \textsc{rr}, \textsc{dh}, with 5, 2, and 10 percent red respectively―and all 0 greens. 
+You look up to Vermont: UVM, RR, DH, with 5, 2, and 10 percent red respectively--and all 0 greens. 
 
 Your stomach drops.
 
@@ -958,25 +718,25 @@ Katia, Sara and Mac all look to Dr. Khan.
 
 "Jody, there has been a strong uptick in reports of a group of people presenting in emergency rooms with severe abdominal pain. They are being diagnosed with meningococcemia or severe acute leukemia. But we don't know what the illness is.", Sara explained. 
 
-"What does the \textsc{cdc} say?", you ask. 
+"What does the CDC say?", you ask. 
 
-"The \textsc{cdc} dismantled their early detection programs last year. But it appears there was a series of major terrorist attacks on the United States that dispersed a pathogen to a large number of people at multiple sites over a period of at least a week." Katia said. 
+"The CDC dismantled their early detection programs last year. But it appears there was a series of major terrorist attacks on the United States that dispersed a pathogen to a large number of people at multiple sites over a period of at least a week." Katia said. 
 
 "This happened last night?" you ask. 
 
 "The cases we're seeing today would have been exposed about two weeks ago; undetected the attacks could have continued up until yesterday. They may still be ongoing." Mac said.
 
-"Shouldn't we have known about it two weeks ago?", you ask.
+Shouldn't we have known about it two weeks ago?", you ask.
 
-"There had been a program called \textit{BioWatch} which had continuously monitored for airborne pathogens in thirty jurisdictions around the \textsc{us} since 2003, but it was quietly shutdown in October of 2025. The entire office to counter weapons of mass destruction was shuttered. Active monitoring for airborne pathogens was placed under the Cybersecurity and Infrastructure Security Agency, but \textsc{cisa} had most of their staff furloughed and never got a confirmed Director." Katia said.
+"There had been a program called *BioWatch* which had continuously monitored for airborne pathogens in thirty jurisdictions around the US since 2003, but it was quietly shutdown in October of 2025. The entire office to counter weapons of mass destruction was shuttered. Active monitoring for airborne pathogens was placed under the Cybersecurity and Infrastructure Security Agency, but CISA had most of their staff furloughed and never got a confirmed Director." Katia said.
 
 "What is the pathogen?", you ask.
 
-"We are not speculating on a specific pathogen." Dr. Khan said firmly. "We are waiting for confirmed tests from the \textsc{cdc}, they will make a positive identification." 
+"We are not speculating on a specific pathogen." Dr. Khan said firmly. "We are waiting for confirmed tests from the CDC, they will make a positive identification." 
 
-"The \textsc{cdc} shut down consultation and testing facilities for pox viruses in late March of this year." Katia added.
+"The CDC shutdown their consultation and testing facilities for pox viruses in late March of this year." Katia added.
 
-You look down at the conference table to see it littered with copies of a paper titled: \textit{The 1971 Smallpox Epidemic in Aralsk, Kazakhstan, and the Soviet Biological Warfare Program} and a paper titled \textit{Smallpox as a Biological Weapon}. There's a book titled \textit{Smallpox - The Death of a Disease} with a bunch of flags sticking out of the end chapters. There's a couple papers on anthrax, but that stack is still in the center of the table untouched.
+You look down at the conference table to see it littered with copies of a paper titled: *The 1971 Smallpox Epidemic in Aralsk, Kazakhstan, and the Soviet Biological Warfare Program* and a paper titled *Smallpox as a Biological Weapon*. There's a book titled *Smallpox - The Death of a Disease* with a bunch of flags sticking out of the end chapters. There's a couple papers on anthrax, but that stack is still in the center of the table untouched.
 
 "What do the red and green numbers mean?", you ask Dr. Khan. 
 
@@ -990,13 +750,13 @@ Katia interjected, "Because the United States stopped vaccinating for smallpox i
 
 "Okay." Katia said. 
 
-"The \textsc{us} national defense strategy for a smallpox-like terrorist attack has been to maintain a stockpile of vaccines for rapid distribution in the event of an attack.", Dr. Khan said. 
+"The US national defense strategy for a smallpox-like terrorist attack has been to maintain a stockpile of vaccines for rapid distribution in the event of an attack.", Dr. Khan said. 
 
 "As long as healthcare professionals are vaccinated within three to four days of exposure, they should be fine." he added. 
 
 "Where are the vaccines?" you ask. 
 
-"The vaccines are being held in the Strategic National Stockpile pending a confirmed positive test from the \textsc{cdc}." Dr. Khan said. 
+"The vaccines are being held in the Strategic National Stockpile pending a confirmed positive test from the CDC." Dr. Khan said. 
 
 Silence fell over the room. 
 
@@ -1006,49 +766,39 @@ Silence fell over the room.
 
 You go into the basement and grab a few dumb terminals to cobble together a workstation. You find a dataset of every major hospital in North America and you put on some gospel music through your headphones to enter the whiteboard of data. 
 
-\begin{quote}
 
-\textit{I will stand for you,}
+*I will stand for you,*
 
-\textit{will you stand for me,}
+*will you stand for me,*
 
-\textit{everybody deserves to be free.}
-
-\end{quote}
+*everybody deserves to be free.*
 
 You open a terminal:
 
-\begin{Verbatim}
-sudo apt-get update; sudo apt-get install qgis;
-\end{Verbatim}
+    sudo apt-get update; sudo apt-get install qgis;
 
 You open another terminal:
 
-\begin{Verbatim}
-mkdir monterey-tracking;
-cd monterey-tracking;
-git init;
-touch na-hospitals.csv;
-git add na-hospitals.csv;
-localc na-hospitals.csv;
-\end{Verbatim}
+    mkdir monterey-tracking;
+    cd monterey-tracking;
+    git init;
+    touch na-hospitals.csv;
+    git add na-hospitals.csv;
+    localc na-hospitals.csv;
 
- 
-
-You enter a column of zeros for green immunization status, fixing Fort Derick and Walter Reed to 100\smallpercent. 
+You enter a column of zeros for green immunization status, fixing Fort Derick and Walter Reed to 100%. 
 
 You then begin entering the red percentages off the board into a column dated August 3rd, one hospital at a time.
 
-\chapter{\textsc{tv} off}
-\label{ch:tuesday}
+# Tuesday: TV Off
 
-\newthought{You had finished} entering all of the data from Monday around midnight. 
+You had finished entering all of the data from Monday around midnight. 
 
-You were exhausted and decided to just go back to your beach front apartment, which had apparently been provided to you by Denmark's Defense Intelligence Service \textsc{(ddis)}. You figured, if the Danes were as smart as they seemed, it should be fine. Right? And indeed, there were no \textsc{swat} teams waiting at the beach. The shell company in the Seychelles had kept its secret. 
+You were exhausted and decided to just go back to your beach front apartment, which had apparently been provided to you by Denmark's Defense Intelligence Service (DDIS). You figured, if the Danes were as smart as they seemed, it should be fine. Right? And indeed, there were no SWAT teams waiting at the beach. The shell company in the Seychelles had kept its secret. 
 
-Leaving the next morning was a little thrilling too. And as you walked out of the lobby at seven in the morning, there weren't hundreds of \textsc{fbi} agents waiting with guns drawn to apprehend you. Just people jogging and biking to work.
+Leaving the next morning was a little thrilling too. And as you walked out the lobby at seven in the morning, there weren't hundreds of FBI agents waiting with guns drawn to apprehend you. Just people jogging and biking to work.
 
-Given a first pass, the team at the institute had decided to refine the data collection program. They had selected noon of each day as the sampling point. They wanted counts of exposed staff and running counts of total staff. The plan was to start calling hospitals on the East Coast around 9\textsc{am} local time, starting with those who had reported zero cases the day prior, and working up by size, giving larger hospital systems more time to tabulate their counts. 
+Given a first pass, the team at the institute had decided to refine the data collection program. They had selected noon of each day as the sampling point. They wanted counts of exposed staff and running counts of total staff. The plan was to start calling hospitals on the East Coast around 9AM local time, starting with those who had reported zero cases the day prior, and working up by size, giving larger hospital systems more time to tabulate their counts. 
 
 As the low person on the totem pole, you took breakfast orders and went to collect them. 
 
@@ -1060,7 +810,7 @@ Dr. Khan was the only one speaking from our side. The conversation began to get 
 
 "Well they at least need to be moving at this point. To be in position in time." he yelled. 
 
-"That's not your purview. They are not your vaccines. It is OUR stockpile. And I'd remind you that you are an immigrant speaking to a \textsc{us} government official." the angry voice said. 
+"That's not your purview. They are not your vaccines. It is OUR stockpile. And I'd remind you that you are an immigrant speaking to a US government official." the angry voice said. 
 
 "I'm a full naturalized citizen of the United States of America." Dr. Khan shot back. 
 
@@ -1090,27 +840,21 @@ You hit the pinwheel on the key fob and saw the four ways on a large white sedan
 
 You arranged the soup and sandwiches on the console under the television.
 
-You picked up a paper entitled \textit{Smallpox as a Biological Weapon} by D.A. Henderson and read the second paragraph of the introduction, 
+You picked up a paper entitled *Smallpox as a Biological Weapon* by D.A. Henderson and read the second paragraph of the introduction, 
 
-\begin{quote}
-If used as a biological weapon, smallpox represents a serious threat to civilian populations because of its case-fatality rate of 30\smallpercent or more among unvaccinated persons and the absence of specific therapy. Although smallpox has long been feared as the most devastating of all infectious diseases, its potential for devastation today is far greater than at any previous time. Routine vaccination throughout the United States ceased more than 25 years go. In a now highly susceptible, mobile population, smallpox would be able to spread widely and rapidly throughout this country and the world. 
-\end{quote}
+> If used as a biological weapon, smallpox represents a serious threat to civilian populations because of its case-fatality rate of 30% or more among unvaccinated persons and the absence of specific therapy. Although smallpox has long been feared as the most devastating of all infectious diseases, its potential for devastation today is far greater than at any previous time. Routine vaccination throughout the United States ceased more than 25 years go. In a now highly susceptible, mobile population, smallpox would be able to spread widely and rapidly throughout this country and the world. 
 
-\textit{Geeze, that sounds pretty bad.}
+*Geeze, that sounds pretty bad.*
 
 You flipped to the next page, to see the guidelines were first drafted in 1998. Since a lot more time has passed, our remaining immunity must be even lower now.
 
 You flipped to the Summary,
 
-\begin{quote}
-   ... Unfortunately, the threat of an aerosol release of smallpox is real and the potential for a catastrophic scenario is great unless effective control measures can quickly be brought to bear. 
-\end{quote}
+> ... Unfortunately, the threat of an aerosol release of smallpox is real and the potential for a catastrophic scenario is great unless effective control measures can quickly be brought to bear. 
 
 You flip to a section titled Post exposure Infection Control,
 
-\begin{quote}
-   Vaccination administered within 4 days of first exposure has been shown to offer some protection against acquiring infection and significant protection against a fatal outcome. 
-\end{quote}
+> Vaccination administered within 4 days of first exposure has been shown to offer some protection against acquiring infection and significant protection against a fatal outcome. 
 
 You look at Sara and ask, "So if this is what we can't say it is, and nurses don't get vaccinated within four days, is there like a treatment?"
 
@@ -1118,11 +862,11 @@ You look at Sara and ask, "So if this is what we can't say it is, and nurses don
 
 "They need vaccines." Sara punctuated.
 
-"Is it really 30\smallpercent fatal without a vaccine?" you ask.
+"Is it really 30% fatal without a vaccine?" you ask.
 
 Sara paused for a long moment.
 
-"That guide was written for a attack involving classical smallpox. That was the worst possible threat we suspected when that paper was written. We learned the Soviets had a bioweapons program producing metric tons of virus after the Soviet Union collapsed, but we didn't get a glimpse of what the virus they were producing could be until 2002." Sara said. 
+"That guide was written for a attack involving classical smallpox. That was the worst possible threat we suspected when that paper was written. We learned the Soviets had a bioweapons program producing metric tons of virus after the Soviet Union collapsed, but we didn't get a glimpse of the virus they were producing could be until 2002." Sara said. 
 
 She continued, "There are many people who say that Doctor Henderson saved the world from the scourge of smallpox by leading the global effort to eradicate it. There's a smaller set of people who say Dr. Henderson saved the world from smallpox twice, by creating a stockpile of vaccines as a deterrent against a bioweapon attack. The truth may be, Dr. Henderson likely saved the world twice, but the virus his vaccine stockpile stopped wasn't smallpox. It was something a bit worse."
 
@@ -1164,7 +908,7 @@ The five of you moved toward the front entrance as Katia gave the travel itinera
 
 "JODY!" Sara yelled as you all cleared the lobby. 
 
-"Go to the store and buy \textsc{n}95 masks and hand sanitizer. Do you like vaccines Jody?" Sara asked.
+"Go to the store and buy N95 masks and hand sanitizer. Do you like vaccines Jody?" Sara asked.
 
 "Yes" you say. 
 
@@ -1194,32 +938,29 @@ There was a copy of a microbiology journal from 2003. You saw a bound booklet ab
 
 There was a map.
 
-You saw a dotted line on the map tracing the voyage of the \textit{Lev Burg}, July-August, 1971. Twenty stops in the Aral Sea around \textit{Rebirth Island} to collect fish and seaweed samples, to survey the ecological impact of a major river diversion for irrigation.
+You saw a dotted line on the map tracing the voyage of the Lev Burg, July-August, 1971. Twenty stops in the Aral Sea around "rebirth island" to collect fish and seaweed samples, to survey the ecological impact of a major river diversion for irrigation.
 
-\textit{All epidemics should only take place on boats}, you think to yourself. \textit{They'd be so much easier to analyze that way.}
+'All epidemics should only take place on boats', you think to yourself. *They'd be so much easier to analyze that way.*
 
 But the official reports from the time were full of many scenarios where Patient 1 in the outbreak contracted the disease off the boat or from someone who had gone ashore.
 
 But when interviewed in 2002, the report from the institute said:
 
-\begin{quote}
- Patient 1 insists that she did not disembark from the \textit{Lev Berg} at any of the ports of call along its route. ... Patient 1 noted that official policy allowed only the male members of the crew to leave the ship, and that this rule was strictly enforced. 
-\end{quote}
+> Patient 1 insists that she did not disembark from the *Lev Berg* at any of the ports of call along its route. ... Patient 1 noted that official policy allowed only the male members of the crew to leave the ship, and that this rule was strictly enforced. 
 
-\textit{Why were there so many scenarios in the official report claiming the index patient disembarked, or purchased items at markets, or was infected by a fellow crew member, but when interviewed decades later, she said she never got off the boat and no one else on the boat got sick?}
+Why were there so many scenarios in the official report claiming the index patient disembarked, or purchased items at markets, or was infected by a fellow crew member, but when interviewed decades later, she said she never got off the boat and no one else on the boat got sick?  
 
-\textit{Why would official contemporaneous reports try to muddle or confuse something so simple?}
+Why would official contemporaneous reports try to muddle or confuse something so simple? 
 
 Your stomach growled.
 
-\textit{The monsters must be hungry by now} you thought to yourself. 
+'The monsters must be hungry by now' you thought to yourself. 
 
 You put the paper back on the conference table and headed over to feed Dr. Khan's dogs. They seemed to be warming slightly to you each time you fed them. Thor's act was still fairly scary each time, but you were getting less afraid of his show. 
 
-\chapter{Flowers}
-\label{ch:wednesday}
+# Wednesday: Flowers
 
-\newthought{On Wednesday morning}, you still weren't exactly sure what your new job was, or who was paying you, but you went back to the institute to compile statistics on the number of healthcare professionals exposed to a novel virus sweeping the country. 
+On Wednesday morning, you still weren't exactly sure what your new job was, or who was paying you, but you went back to the institute to compile statistics on the number of healthcare professionals exposed to a novel virus sweeping the country. 
 
 You stopped to feed Dr. Khan's dogs on the way in.
 
@@ -1231,11 +972,11 @@ It was just Jody alone in the conference room.
 
 You begin to make the acquaintance of your various new colleagues by their chat handles and avatars. 
 
-You looked at the little tripod conference phone while waiting for data to come in. The conference phone had an 802 number. \textit{That's funny.}
+You looked at the little tripod conference phone while waiting for data to come in. The conference phone had an 802 number. *That's funny.*
 
 You had brought a three bean salad from your refrigerator at home. No need to do food runs if it's just you today.
 
-You took a break around four o'clock \textsc{pm} to feed Thor and Flash.
+You took a break around four o'clock PM to feed Thor and Flash.
 
 By five o'clock, you were merging your second complete day of individual count data on a national level, which gave you one step in a differential rate of change. 
 
@@ -1243,15 +984,13 @@ On Tuesday, the number of exposed healthcare professionals nationally had been a
 
 You didn't need to plot or do much interpretation to see vaccination rates. Only five hospitals seemed to have gotten the memo and begun deploying available vaccine stockpiles: one near Baltimore, one in Boston, a New York City hospital, San Francisco, and a hospital near Atlanta. They were able to cover those that had been exposed, but they had stopped short of vaccinating their entire staff. Presumably, they were already rationing their current vaccine stocks. 
 
-\begin{quote}
-Even the most conservative epidemiological models suggest that ring vaccination alone, after an attack of this magnitude, would be totally inadequate to contain the subsequent outbreak. 
-\end{quote}
+> Even the most conservative epidemiological models suggest that ring vaccination alone, after an attack of this magnitude, would be totally inadequate to contain the subsequent outbreak. 
 
-The fragment of a commentary from a \textsc{usamriid} epidemiologist echoed from the nightmares of your bedtime reading.
+The fragment of a commentary from a USAMRIID epidemiologist echoed from the nightmares of your bedtime reading.
 
 You plotted the data on a national map and began flying around looking for anomalies of cases per capita. 
 
-The most obvious feature that presented itself regarding exposed healthcare professionals per capita was that certain locations with higher exposure had also hosted major events in the previous weeks: Boston, New York, Miami, Philadelphia, Atlanta, Kansas City, Houston, Dallas, Los Angeles, San Francisco, Seattle.
+The most obvious feature that presented itself regarding exposed healthcare professionals per capita was that certain locations with higher exposure had also hosted major events in the previous weeks.  
 
 In those population centers, the fraction of healthcare workers exposed was already approaching fifty percent. More rural healthcare systems were seeing far fewer cases. Major urban hospital systems were seeing a fair number of cases per capita. 
 
@@ -1267,30 +1006,25 @@ You looked up to see a large black man dressed in a uniform had passed by in the
 
 You see from his uniform the delivery business is called Carl the Courier with a cartoon caterpillar holding a parcel. 
 
-This second \textit{Carl} is setting off your warning bells. 
+This second *Carl* is setting off your warning bells. 
 
 "Carl?" you ask. 
 
 "Ha, no. My name is Francis. Carl the Courier was just the name of the business when I bought it.", he said. 
 
-"See" he says pointing to the embroidered \textit{Francis} on his uniform.
+"See" he says pointing to the embroidered *Francis* on his uniform.
 
 "So you bought the courier business from Carl?", you ask. 
 
 "Nah, I bought it from a guy named Jose, He bought it from a guy named Scott. There may have been a Carl in the 90's, but we just liked the name." Francis explained.
 
-"Anyway, I've got two envelopes here." he says as he hands you a large white envelope addressed to the center.
+"Anyway, I've got two envelopes here." he says as he hands you a large white envelope addressed to the center. The return address in the upper left hand corner simply reads:
 
-\newpage
-The return address in the upper left hand corner simply reads:
-
-\begin{verbatim}
     Alliance of
     Like-minded
     Independent
     Cryptocurrency
     Experts
-\end{verbatim}
 
 There is no other return address. There are no post-markings or machine labels. The paper felt thick and soft. 
 
@@ -1320,7 +1054,7 @@ Francis isn't setting off your alarm bells. There are literal car alarms going o
 
 "Were we just in an earthquake Francis?" you ask.
 
-"Don't think so." he says, "I get \textsc{usgs} alerts on my smart watch."
+"Don't think so." he says, "I get USGS alerts on my smart watch."
 
 You hear an 8-bit video game coin sound effect emanate from Francis' phone. 
 
@@ -1334,7 +1068,7 @@ From the main entrance, a loud male voice yells "CLEAR!".
 
 You turn your head to see a canister knock it's way down the hallway. You close your eyes and try to protect your head with your arms as the flash bang explodes. 
 
-Federal storm troopers marked as \textit{POLICE} fill every room in the wing, pointing military-style rifles and yelling contradictory orders. 
+Federal storm troopers marked as *POLICE* fill every room in the wing, pointing military-style rifles and yelling contradictory orders. 
 
 "DOWN ON THE GROUND; HANDS UP! HANDS BEHIND YOUR BACK; GET BACK! ON YOUR KNEES!"
 
@@ -1348,7 +1082,7 @@ They get Francis pinned on the ground zip-tied calling him the N-word as they tr
 
 You get zip-tied and maneuvered up by your shoulder so they can scan your face. 
 
-\textit{[BOOP]}
+[BOOP]
 
 "Red letter. No good." the storm trooper mutters through a mask. 
 
@@ -1358,7 +1092,7 @@ He presses the palm of his hand into your temple to momentarily reduce the swell
 
 You open your eyes as much as possible and lift your head up. 
 
-\textit{[BEEP]}
+[BEEP]
 
 "Green. Lucky day kid.", he says as he drops your shoulder.
 
@@ -1366,13 +1100,13 @@ The storm troopers leave you zip-tied on the floor at the end of the conference 
 
 Papers, books, journals, electronics, personal effects, you can hear as every desk and filing cabinet is popped and drilled open. Every single piece of electronic equipment is put in a steel bin and carted toward the curb where you can hear the screeching of garbage trucks consuming the contents of the institute. 
 
-You see the boots of someone clearing the conference table. All the papers, the phone, your workstation. The white envelope Francis just delivered gets knocked on the floor, but is quickly slam dunked into the bin. Everything goes in a demolition bin, everything but the dumb smart \textsc{tv} mounted to the wall.  
+You see the boots of someone clearing the conference table. All the papers, the phone, your workstation. The white envelope Francis just delivered gets knocked on the floor, but is quickly slam dunked into the bin. Everything goes in a demolition bin, everything but the dumb smart TV mounted to the wall.  
 
-"Maybe we red scan that freak now", you hear a storm-trooper joke. 
+"Maybe we red scan that freak now", you hear a storm trooper joke.
 
 You look around to notice that underneath the conference table is like a little safe room. The table is made of two solid vertical supports running most of the length. The table is like a giant double T-beam. 
 
-\textit{Avoid capture at all costs.} you hear Sara say.
+*Avoid capture at all costs.* you hear Sara say.
 
 You crawl underneath the conference table toward the middle, but just before you reach the halfway point, the floor gives out and you tumble forward off a trap-door head first. 
 
@@ -1442,7 +1176,7 @@ Katia tries again: "Repeat after me,  Specification, infection, selection."
 
 "There is a field of white flowers, but one of every fifty flowers is red.", she repeats.
 
-"You take the red flower. You say: 'This is the one, but more.'―that is your specification."
+"You take the red flower. You say: 'this is the one, but more'; that is your specification."
 
 "You pick all the red flowers, and you burn the field. Then you sow only red flowers. When your flowers grow, you harvest the seeds of the red ones and burn the rest again. You repeat this process until only red flowers grow."
 
@@ -1544,7 +1278,7 @@ There was no more action on the feeds. Just empty rooms and offices. A few scatt
 
 Katia sighs. "For the world, several billion people. But that's not going to be the end." 
 
-"Someday soon (or perhaps it has already happened) near the frontlines of the war in my home countries, there will be a young soldier tasked to paint the silhouette of a group of running school children on a tank to see if it will stop an \textsc{ai}-enabled drone targeting system. And on the other side of the frontline, a technician will get a tap on the shoulder to rerun an \textsc{ai} training model without an exclusion set and redeploy an over-the-air update to all active drones." Katia said.
+"Someday soon (or perhaps it has already happened) near the frontlines of the war in my home countries, there will be a young soldier tasked to paint the silhouette of a group of running school children on a tank to see if it will stop an AI-enabled drone targeting system. And on the other side of the frontline, a technician will get a tap on the shoulder to rerun an AI training model without an exclusion set and redeploy an over-the-air update to all active drones." Katia said.
 
 "The war they are fighting, and the weapons they are building are not confined by geography. They are coming for us next." She said. 
 
@@ -1552,11 +1286,9 @@ Katia sighs. "For the world, several billion people. But that's not going to be 
 
 "It's quicker and easier to eat your young." Katia retorts. 
 
-\chapter{Terminus}
-\label{ch:thursday}
+# Thursday: Terminus
 
-
-\newthought{They say} you're not supposed to sleep with a concussion, but invariably everyone has to sleep sometime. Katia said it was a slight concussion.
+They say you're not supposed to sleep with a concussion, but invariably everyone has to sleep sometime. Katia said it was a slight concussion.
 
 There were a couple of cots and some blankets in the fallout shelter. 
 
@@ -1566,12 +1298,9 @@ You found a light switch and the indirect fluorescent lights gave you some beari
 
 On a desk was a laptop and a note:
 
-\begin{quote} 
-I saved this for you Jody. \\ You can't save the world with a laptop, but it certainly can't hurt. If you need wheels, the title is in the glove box. \\ Good Luck,\\
- Katia
-\end{quote}
+ > I saved this for you Jody. You can't save the world with a laptop, but it certainly can't hurt. If you need wheels, the title is in the glove box. Good Luck, Katia
 
-Next to the laptop was a plastic bag with various items you were well acquainted with from the last pandemic: masks, sanitizer, gloves, etcetera―just provided without explanation.
+Next to the laptop was a plastic bag with various items you were well acquainted with from the last pandemic: masks, sanitizer, gloves, etcetera&mdash;just provided without explanation.
 
 There were copies of the papers that had been on the conference table too. You recognized the key fob to Katia's car on top. 
 
@@ -1615,7 +1344,7 @@ Despite a sixty percent drop in hospitals reporting, the total count of exposed 
 
 How could you be the only one seeing this?
 
-You turned around and found a remote cabled to an anchor point on the console under the \textsc{tv}. You turned the \textsc{tv} on and skipped around with sources and channels until you found a few national news programs. 
+You turned around and found a remote cabled to an anchor point on the console under the TV. You turned the TV on and skipped around with sources and channels until you found a few national news programs. 
 
 The news programs were all talking about something controversial a high profile person had said on social media. They were covering protests against occupation and messages leaders were posting to social media in support (or against) some violence or protests. 
 
@@ -1693,7 +1422,7 @@ You look down to see a short cryptic message. It didn't really make sense.
 
 "What does this mean?" you ask. 
 
-"It's a website Jody. It's a \textsc{url}. It's a publicly accessible webpage open to the world, anyone can view it with a computer or phone. You type it into an address bar of a browser." Flo explains. 
+"It's a website Jody. It's a URL. It's a publicly accessible webpage open to the world, anyone can view it with a computer or phone. You type it into an address bar of a browser." Flo explains. 
 
 "May I take a picture of your hand holding the message Jody? As proof of delivery?", Flo asks. 
 
@@ -1775,7 +1504,7 @@ You open your laptop and fire off a message in the group chat.
 
 You explain the current status of the tracking project and why you're stepping back. You make some recommendations if volunteers want to continue the project in a more secure fashion, and recommend some folks you know Mac and Sara trusted to lead in your place. 
 
-It was 5:56\textsc{pm}.
+It was 5:56PM.
 
 You stare at the whiteboard again to decompress and second guess your decision. 
 
@@ -1785,11 +1514,11 @@ The alert directed you to a live broadcast for an important message.
 
 You turned the television back on. 
 
-The screen was full of brightly colored graphic \textsc{ai} slop, the kind you saw on classmates tictok feeds. This crap couldn't possibly be it. And yet, those cheap graphics were on every channel. 
+The screen was full of brightly colored graphic AI slop, the kind you saw on classmates tictok feeds. This crap couldn't possibly be it. And yet, those cheap graphics were on every channel. 
 
-On national broadcast television, you saw fake \textsc{ai} generated videos of the President doing various things: holding a trained bald eagle, driving a huge truck through crowds of zombies, directing troops into battle. It was a big flashy opening spread with flags and fireworks. It was like a graphics package that might be produced for a major sporting event, but it was all \textsc{ai} generated―poorly. 
+On national broadcast television, you saw fake AI generated videos of the President doing various things: holding a trained bald eagle, driving a huge truck through crowds of zombies, directing troops into battle. It was a big flashy opening spread with flags and fireworks. It was like a graphics package that might be produced for a major sporting event, but it was all AI generated&mdash;poorly. 
 
-The voice over sounded like the leader, but you could tell from the vocabulary and cadence when they had words read by the "Dear Leader" \textsc{ai}. 
+The voice over sounded like the leader, but you could tell from the vocabulary and cadence when they had words read by the "Dear Leader" AI. 
 
 "On Sunday August second, our great nation suffered a horrendous terrorist attack, the likes of which few people could imagine. The nuke was not just an attack on the great city of Chicago, but was part of a deep state conspiracy to overthrow the government of the United States. Tonight, we have assembled twenty five of the conspirators. They have been convicted of high treason against the United States." 
 
@@ -1797,11 +1526,11 @@ The voice over sounded like the leader, but you could tell from the vocabulary a
 
 The canned music and generated voiceover stopped. The video switched abruptly to a live feed from the ballroom and a hot mic. 
 
-There was a conventionally produced professional graphic overlaid with the names and mugshots of all twenty-five people. They were all shown under the heading \textit{PROVEN GUILTY} in red and black. 
+There was a conventionally produced professional graphic overlaid with the names and mugshots of all twenty-five people. They were all shown under the heading "PROVEN GUILTY" in red and black. 
 
-There were Dr. Khan, Mac, and Sara listed alongside a doctor from the \textsc{cdc} and another from \textsc{usamriid}. 
+There were Dr. Khan, Mac, and Sara listed alongside a doctor from the CDC and another from USAMRIID. 
 
-The feed cut to a brightly lit outdoor stage. It was surrounded with screens saying \textit{PROVEN GUILTY} and \textit{TRAITORS}. There's a sweeping pan of live closeups. 
+The feed cut to a brightly lit outdoor stage. It was surrounded with screens saying "PROVEN GUILTY" and "TRAITORS". There's a sweeping pan of live closeups. 
 
 You hear an announcer say: 
 
@@ -1811,25 +1540,6 @@ They couldn't seem to find a professional singer for their last minute event. Yo
 
 Instead, the nation heard the confused ramblings on the hot mic. The open and stark juxtaposition between the cognitive function depicted in the state produced narrative and reality was now one of the most terrifying features of the propaganda. 
 
-"Yo say does that star-spanger banner yet whale.  'n it all because of me, ba de ping, pa paaaa POP!"
+"Yo say does that star spanger banner yet whale.  'n it all belongs to me, ba de ping, pa paaaa POP!"
 
-\textsc{the end.}
-%%
-% The back matter contains appendices, bibliographies, indices, glossaries, etc.
-
-
-
-
-
-
-
-\backmatter
-
-\bibliography{sample-handout}
-\bibliographystyle{plainnat}
-
-
-\printindex
-
-\end{document}
-
+*THE END*

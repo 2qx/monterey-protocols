@@ -166,7 +166,7 @@ You stop the car.
 
 *All the bears have to be denned up by now. What the hell is this creature?*
 
-It turns to cross the road, dragging the end of thirty foot sapling above it's head, like a giant rodent flag bearer without a petard. 
+It turns to cross the road, dragging the end of a thirty foot sapling above it's head, like a giant rodent flag bearer without a petard. 
  
 *Jeez-um CROW, its got to be the biggest beaver in Vermont.* A fifty pound tank. *HOLLLY CRAP.* 
 

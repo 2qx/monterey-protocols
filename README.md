@@ -6,8 +6,6 @@ image:
 layout: home
 date: 2026-01-23 00:00:00
 ---
- 
-A novella for nonproliferation. 
 
 1. [Prologue - Snow Globe](./0/)
 2. [Sunday - EMPART](./1/)
@@ -16,4 +14,12 @@ A novella for nonproliferation.
 5. [Wednesday - Flowers](./4/)
 6. [Thursday - Terminus](./5/)
 
-[about](./about) | [pdf](/assets/monterey-protocols-A5.pdf) 
+
+|  Other formats:                                                                                               |
+| :----------------------------------------------------------------------------------------------- |
+| [pdf](/assets/monterey-protocols_A5.pdf)                                                         |
+| [zine](/assets/monterey-protocols-zine.pdf)   | 
+| [paperback](https://www.lulu.com/shop/2qx/the-monterey-protocols/paperback/product-84dydww.html) |
+| [hardcover](https://www.lulu.com/shop/2qx/the-monterey-protocols/hardcover/product-84dj4qp.html) |
+
+[about](./about) | [licence](./LICENSE)
