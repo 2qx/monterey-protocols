@@ -1,7 +1,18 @@
 ---
-title: The Monterey Protocols
+title:
+- type: main
+  text: The Monterey Protocols
+- type: subtitle
+  text: A novella for non-proliferation
 subtitle: a novella for non-proliferation
+language: en
 author: 2qx
+identifier:
+- scheme: ISBN-13
+  text: "9781105398926"
+description: A short fictional thriller posing pressing strategic questions on a set of latent issues in civil defense.
+rights: © 2026 2qx, CC BY-NC-ND
+cover-image: "epub_cover.svg"
 ---
 
 # Dedication
@@ -18,6 +29,8 @@ Creative Commons Attribution-NonCommercial-NoDerivatives
 4.0 International Public License
 
 https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+
+ISBN: 978-1-105-39892-6
 
 first draft backup: 
 
