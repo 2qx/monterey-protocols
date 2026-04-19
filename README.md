@@ -24,7 +24,7 @@ date: 2026-01-23 00:00:00
 
 <br><br><br><br><br>
 
-[epub](/epub/The_Monterey) |  [pdf](/assets/monterey-protocols_A5.pdf)  | [DIY zine](/assets/monterey-protocols-zine.pdf)    
+[epub](./epub/The_Monterey_Protocols.epub) |  [pdf](/assets/monterey-protocols_A5.pdf)  | [DIY zine](/assets/monterey-protocols-zine.pdf)    
 
 [paperback](https://www.lulu.com/shop/2qx/the-monterey-protocols/paperback/product-84dydww.html) | [hardcover](https://www.lulu.com/shop/2qx/the-monterey-protocols/hardcover/product-84dj4qp.html) 
 
