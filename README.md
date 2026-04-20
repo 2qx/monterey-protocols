@@ -7,6 +7,8 @@ layout: home
 date: 2026-01-23 00:00:00
 ---
 
+<img src="./assets/social.png">
+
 1. [Prologue - Snow Globe](./0/)
 2. [Sunday - EMPART](./1/)
 3. [Monday - Red & Green](./2/)
@@ -14,7 +16,6 @@ date: 2026-01-23 00:00:00
 5. [Wednesday - Flowers](./4/)
 6. [Thursday - Terminus](./5/)
 
-<br><br><br><br><br>
 
 <a href="./epub/The_Monterey_Protocols.epub" target="_blank">epub</a>  |  <a href="./assets/monterey-protocols_A5.pdf" target="_blank">pdf</a>  | <a href="./assets/monterey-protocols-zine.pdf" target="_blank">DIY zine</a>  
 
