@@ -35,7 +35,7 @@ The fragment of a commentary from a USAMRIID epidemiologist echoed from the nigh
 
 You plotted the data on a national map and began flying around looking for anomalies of cases per capita. 
 
-The most obvious feature that presented itself regarding exposed healthcare professionals per capita was that certain locations with higher exposure had also hosted major events in the previous weeks.  
+The most obvious feature that presented itself regarding exposed healthcare professionals per capita was that certain locations with higher exposure had also hosted major events in the previous weeks: Boston, New York, Miami, Philadelphia, Atlanta, Kansas City, Houston, Dallas, Los Angeles, San Francisco, Seattle.
 
 In those population centers, the fraction of healthcare workers exposed was already approaching fifty percent. More rural healthcare systems were seeing far fewer cases. Major urban hospital systems were seeing a fair number of cases per capita. 
 
