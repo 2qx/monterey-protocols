@@ -7,7 +7,7 @@ layout: home
 date: 2026-01-23 00:00:00
 ---
 
-<img src="./assets/door.png">
+<img src="./assets/merc.png">
 
 ## Chapters 
 
