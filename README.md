@@ -7,7 +7,7 @@ layout: home
 date: 2026-01-23 00:00:00
 ---
 
-<img src="./assets/social.png">
+<img src="./assets/door.png">
 
 ## Chapters 
 
@@ -17,6 +17,7 @@ date: 2026-01-23 00:00:00
 4. [Tuesday - tv off](./3/)
 5. [Wednesday - Flowers](./4/)
 6. [Thursday - Terminus](./5/)
+
 
 ## Digital Formats
 
