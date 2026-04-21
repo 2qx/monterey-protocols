@@ -28,6 +28,9 @@ date: 2026-01-23 00:00:00
 
 <a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/paperback/product-84dydww.html" target="_blank">paperback</a> | <a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/hardcover/product-84dj4qp.html" target="_blank">hardcover</a>
 
+
+<br/><br/><br/><br/>
+
 ***
 
-[about](./about) | [donate](./donate) | [licence]{LICENCE}
+[about](./about) | [donate](./donate) | [licence](LICENCE)
