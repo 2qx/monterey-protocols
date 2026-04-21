@@ -24,12 +24,6 @@ This novella is also available typeset in [Portable Document Format (PDF)](/asse
 
 The PDF is also available formatted as [20-sheet stapled bound "zine"](/assets/monterey-protocols-zine.pdf){:target="_blank"}, with an optional [cover](/assets/monterey-protocols-cover.pdf){:target="_blank"}. [When printing, select two-sided duplex flipped on the "long edge"]
 
-## Pay what you wish
-
-A dystopian novella like this should never have needed to have been written, and we can hope such a terrible thing should never need to be written again. But if anyone would like to show financial support for the existence of someone who would write such a thing when it was written, non-tax deductible personal donations can be sent to the address below:
-
-bitcoincash:qznqv0h95re2qktlacjnss7n59smpgqtcv33784v8r
-
 ## Backup Copies
 
 This work is freely available to anyone who would like to read it in perpetuity. A draft of this text was recorded on the Bitcoin Cash blockchain to assure it can never be censored or altered, in six transactions referenced by the hashes below:

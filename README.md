@@ -30,4 +30,4 @@ date: 2026-01-23 00:00:00
 
 ***
 
-[about](./about) 
+[about](./about) | [donate](./donate) | [licence]{LICENCE}
