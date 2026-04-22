@@ -5,6 +5,7 @@ image:
   path: /assets/social.png
 layout: home
 date: 2026-01-23 00:00:00
+description: A short fictional thriller posing pressing strategic questions on a set of latent issues in civil defense.
 ---
 
 <img src="./assets/merc.png">
