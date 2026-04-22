@@ -13,16 +13,6 @@ This is a work of fiction. Names, characters, places and incidents are products 
 
 Although the characters and plot are fictitious, the occasional papers, guides and books referenced are very real. In 2002, expert threat assessments around the central topic were very grave. Since that time, there has been an open, obvious and intense amount of work done in public health, the media, politics and civic discourse to enhance the impact of the threat―often by unwitting people who don't seem to understand the scope of what they're doing.
 
-## Licence
-
-This work is placed in the public domain under a [Creative Commons Non-commercial No Derivatives 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en)
-
-
-## Print Version
-
-This novella is also available typeset in [Portable Document Format (PDF)](/assets/monterey-protocols_A5.pdf){:target="_blank"}
-
-The PDF is also available formatted as [20-sheet stapled bound "zine"](/assets/monterey-protocols-zine.pdf){:target="_blank"}, with an optional [cover](/assets/monterey-protocols-cover.pdf){:target="_blank"}. [When printing, select two-sided duplex flipped on the "long edge"]
 
 ## Backup Copies
 
@@ -35,13 +25,3 @@ This work is freely available to anyone who would like to read it in perpetuity.
     0dc8587ad2b023d39fd02210cd0909d6196a572e58fe709a6594fab3555bc36e
     2e18c701e724f16cfc5147c774f73a3f7b325e894c4c5cad323bca6d35067f2d
     
-## By mail
-    
-Any Vermonter that would prefer to read a printed copy of this novella may obtain a FREE copy by post mail by sending an email with the subject "Free copy" and a US mailing address to:
-
-   zine@small.neomailbox.ch 
-
-Proof of Vermonterness is not required, anyone that identifies as a Vermonter is entitled to a free copy. Postage is included for US Domestic mailing addresses. 
-
-The standing offer for a free printed copy should be considered terminated if copies are generally available to order from a bookstore at a reasonable cost in mass market paperback. The free copy offer should also be considered terminated in the event of a global health emergency similar in nature to that described by the book.
-

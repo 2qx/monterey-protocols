@@ -4,4 +4,4 @@ A dystopian novella like this should never have needed to have been written, and
 
 bitcoincash:qznqv0h95re2qktlacjnss7n59smpgqtcv33784v8r
 
-<img src="./tex/graphics/qr.png>
+<img src="./tex/graphics/qr.png">

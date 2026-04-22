@@ -26,11 +26,11 @@ date: 2026-01-23 00:00:00
 
 ## Physical Copies
 
-<a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/paperback/product-84dydww.html" target="_blank">paperback</a> | <a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/hardcover/product-84dj4qp.html" target="_blank">hardcover</a>
+<a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/paperback/product-84dydww.html" target="_blank">paperback</a> | <a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/hardcover/product-84dj4qp.html" target="_blank">hardcover</a> | [free zine](zine.md)
 
 
 <br/><br/><br/><br/>
 
 ***
 
-[about](./about) | [donate](./donate) | [licence](LICENCE)
+[about](./about.md) | [donate](./donate.md) | [licence](LICENCE)
