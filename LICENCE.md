@@ -1,3 +1,9 @@
+---
+title: Licence
+permalink: /LICENCE
+layout: post
+---
+
 Attribution-NonCommercial-NoDerivatives 4.0 International
 
 
