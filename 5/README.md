@@ -59,7 +59,7 @@ Of the epicenter cities, only a few hospitals in New York City kept reporting.
 
 Despite a sixty percent drop in hospitals reporting, the total count of exposed healthcare professionals went up. There were now over 2,400 healthcare professionals exposed. Roughly extrapolating, that would put complete totals at over six thousand nationally. That would be a roughly four-fold increase from the day prior, but you had lost a lot of data sources. Given the size and distribution of hospitals that stopped reporting, you feared the truth could be even worse. 
 
-How could you be the only one seeing this?
+*How could you be the only one seeing this?*
 
 You turned around and found a remote cabled to an anchor point on the console under the TV. You turned the TV on and skipped around with sources and channels until you found a few national news programs. 
 

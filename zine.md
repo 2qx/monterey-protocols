@@ -1,4 +1,10 @@
-## Free zine by mail
+---
+title: Free zine by mail
+date: 2026-04-22
+permalink: /zine
+layout: page
+---
+
     
 Any Vermonter that would like a printed copy of this novella may obtain a FREE copy by post mail by sending an email with the subject "Free copy" and a US mailing address to:
 
