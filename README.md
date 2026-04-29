@@ -8,7 +8,7 @@ date: 2026-01-23 00:00:00
 description: A short fictional thriller posing pressing strategic questions on a set of latent issues in civil defense.
 ---
 
-<img src="./assets/merc.png">
+<img alt="A map of the world using the Mercator projection, centered to show the country of Greenland as disproportionally large." src="./assets/merc.png">
 
 ## Chapters 
 
@@ -27,11 +27,11 @@ description: A short fictional thriller posing pressing strategic questions on a
 
 ## Physical Copies
 
-<a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/paperback/product-84dydww.html" target="_blank">paperback</a> | <a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/hardcover/product-84dj4qp.html" target="_blank">hardcover</a> | [free zine](zine.md)
+<a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/paperback/product-84dydww.html" target="_blank">paperback</a> | <a href="https://www.lulu.com/shop/2qx/the-monterey-protocols/hardcover/product-84dj4qp.html" target="_blank">hardcover</a> | 
+<a href="https://www.lulu.com/shop/2qx/the-monterey-protocols-large-print/hardcover/product-gj44zk6.html" target="_blank">large print</a>  | [free zine](zine.md)
 
 
 <br/><br/><br/><br/>
 
-***
 
 [about](./about.md) | [donate](./donate.md) | [licence](LICENCE)

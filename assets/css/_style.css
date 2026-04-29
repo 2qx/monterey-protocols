@@ -204,15 +204,15 @@
     background-color:seashell
   }
   a {
-    color:rgb(31, 54, 187);
+    color:rgb(12, 22, 77);
     text-decoration:none
   }
   a:visited {
-    color: rgb(70, 22, 182);
+    color: rgb(17, 32, 116);
   }
   a:hover {
     text-decoration:underline;
-    color:rgb(141, 20, 255)
+    color:rgb(61, 11, 109)
   }
   b,
   strong {
