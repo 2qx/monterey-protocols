@@ -13,9 +13,8 @@ self.addEventListener("install", (event) => {
             "/3/",
             "/4/",
             "/5/",
-            "/assets/monterey-protocols_A5.pdf",
             "/style.css",
-            "/about.html",
+            "/about",
             "/merc.png"
         ]),
     );
