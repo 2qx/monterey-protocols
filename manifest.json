@@ -1,0 +1,24 @@
+{
+    "theme_color": "#7a5c94",
+    "background_color": "#cfcfcf",
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "/assets/icon512_maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "/assets/icon512_rounded.png",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "any",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "en",
+    "name": "The Monterey Protocols",
+    "short_name": "Monterey Protocols"
+}
