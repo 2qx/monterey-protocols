@@ -13,7 +13,8 @@ this.addEventListener("install", (event) => {
                     "/5/",
                     "/assets/css/style.css",
                     "/about",
-                    "/assets/merc.png"
+                    "/assets/merc.png",
+                    "/manifest.webmanifest"
                 ]),
             ),
     );
