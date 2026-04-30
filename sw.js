@@ -11,10 +11,15 @@ this.addEventListener("install", (event) => {
                     "/3/",
                     "/4/",
                     "/5/",
-                    "/assets/css/style.css",
                     "/about",
+                    "/donate",
+                    "/manifest.webmanifest",
+                    "/zine",
                     "/assets/merc.png",
-                    "/manifest.webmanifest"
+                    "/assets/css/style.css",
+                    "/assets/monterey-protocols_A5.pdf",
+                    "/assets/monterey-protocols-zine.pdf",
+                    "/epub/The_Monterey_Protocols.epub",
                 ]),
             ),
     );
