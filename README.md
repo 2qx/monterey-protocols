@@ -8,7 +8,7 @@ date: 2026-01-23 00:00:00
 description: A short fictional thriller posing pressing strategic questions on a set of latent issues in civil defense.
 ---
 
-<img width="100%" alt="A map of the world using the Mercator projection, centered to show the country of Greenland as disproportionally large." src="./assets/merc.png">
+<img max-width="800px" max-height="561px" alt="A map of the world using the Mercator projection, centered to show the country of Greenland as disproportionally large." src="./assets/merc.png">
 
 ## Chapters 
 
