@@ -17,8 +17,13 @@
     ],
     "orientation": "any",
     "display": "standalone",
+    "start_url": "/",
+    "description": "A short fictional thriller posing pressing strategic questions on a set of latent issues in civil defense.",
     "dir": "auto",
     "lang": "en",
     "name": "The Monterey Protocols",
-    "short_name": "Monterey Protocols"
+    "short_name": "Monterey Protocols",
+    "categories": [
+        "books"
+    ]
 }
