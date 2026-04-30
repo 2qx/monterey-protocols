@@ -17,7 +17,7 @@ this.addEventListener("install", (event) => {
                     "/zine",
                     "/assets/merc.png",
                     "/assets/css/style.css",
-                    "/assets/monterey-protocols_A5.pdf",
+                    "/assets/monterey-protocols-A5.pdf",
                     "/assets/monterey-protocols-zine.pdf",
                     "/epub/The_Monterey_Protocols.epub",
                 ]),
