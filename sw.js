@@ -19,6 +19,18 @@ this.addEventListener("install", (event) => {
     );
 });
 
+const enableNavigationPreload = async () => {
+  if (self.registration.navigationPreload) {
+    // Enable navigation preloads!
+    await self.registration.navigationPreload.enable();
+  }
+};
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(enableNavigationPreload());
+});
+
+
 const cacheFirst = async (request, event) => {
   const responseFromCache = await caches.match(request);
   if (responseFromCache) {
