@@ -11,9 +11,9 @@ this.addEventListener("install", (event) => {
                     "/3/",
                     "/4/",
                     "/5/",
-                    "/style.css",
+                    "/assets/css/style.css",
                     "/about",
-                    "/merc.png"
+                    "/assets/merc.png"
                 ]),
             ),
     );
