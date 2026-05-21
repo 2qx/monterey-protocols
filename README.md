@@ -1,5 +1,5 @@
 ---
-title: The Monterey Protocols | A novella for non-proliferation
+title: The Monterey Protocols - A novella for non-proliferation
 permalink: /
 image:
   path: /assets/social.png
