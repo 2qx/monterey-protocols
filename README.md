@@ -22,7 +22,7 @@ description: A short fictional thriller posing pressing strategic questions on a
 
 ## Digital Formats
 
-<a href="./epub/The_Monterey_Protocols.epub" target="_blank">epub</a>  |  <a href="./assets/monterey-protocols-A5.pdf" target="_blank">pdf</a>  | <a href="./assets/monterey-protocols-zine.pdf" target="_blank">DIY zine</a>  
+<a href="./epub/The_Monterey_Protocols.epub" target="_blank">epub</a>  |  <a href="./assets/monterey-protocols_A5.pdf" target="_blank">pdf</a>  | <a href="./assets/monterey-protocols-zine.pdf" target="_blank">DIY zine</a>  
 
 
 ## Physical Copies
